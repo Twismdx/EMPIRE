@@ -409,9 +409,9 @@ const FrameComponent1 = (props) => {
 
 	useEffect(() => {
 		const outstanding = getTotalOutstanding(status)
-		setOutstanding(outstanding)
+		setOutstanding(outstanding.toFixed(2))
 		const paid = getTotalPaid(status)
-		setTotal(paid)
+		setTotal(paid.toFixed(2))
 	},[status])
 
 	return (
