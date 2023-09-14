@@ -1,0 +1,6 @@
+{
+    "editor.guides.bracketPairs": true,
+    "prettier.bracketSpacing": false,
+    "prettier.eslintIntegration": true,
+    "javascript.format.insertSpaceAfterCommaDelimiter": false
+}

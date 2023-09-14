@@ -1,0 +1,127 @@
+.cbuttons {
+ position:fixed !important;
+ top: 100%;
+ left: 5px;
+ text-align: center;
+ align-items: center;
+}
+
+
+.hidden {
+    position:fixed !important;
+    top: 100%;
+    left: 5px;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.allOn {
+    position: relative;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: #fff;
+    text-align: left;
+  }
+  .allOnWrapper,
+  .close,
+  .notes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .close,
+  .notes {
+    cursor: pointer;
+    border: 0;
+  }
+  .notes {
+    padding: 8px 27px;
+    background-color: #0034d1;
+    position: absolute;
+    top: 150px;
+    left: 56px;
+    border-radius: 16px;
+    width: 84px;
+    box-sizing: border-box;
+  }
+  .close {
+    top: 0;
+    left: 112px;
+  }
+  .book,
+  .close,
+  .flash {
+    padding: 8px 27px;
+    background-color: #0034d1;
+    position: absolute;
+    border-radius: 16px;
+    width: 84px;
+    box-sizing: border-box;
+  }
+  .book {
+    cursor: pointer;
+    border: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .flash {
+    top: 50px;
+    left: 56px;
+  }
+  .disable,
+  .flash,
+  .buttonsButton,
+  .reserve {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .reserve {
+    padding: 8px 27px;
+    background-color: #0034d1;
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    border-radius: 16px;
+    width: 84px;
+    box-sizing: border-box;
+  }
+  .disable,
+  .buttonsButton {
+    padding: 0;
+    background-color: transparent;
+  }
+  .disable {
+    padding: 8px 27px;
+    background-color: #0034d1;
+    position: absolute;
+    top: 100px;
+    left: 112px;
+    border-radius: 16px;
+    width: 84px;
+    box-sizing: border-box;
+  }
+  .notesParent {
+    position: fixed;
+    width: 200px !important;
+    height: 200px;
+    overflow: hidden;
+    left: 370px;
+    bottom: 475px;
+    
+  }
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }

@@ -1,0 +1,720 @@
+.div {
+  cursor: pointer;
+}
+.button,
+.div1 {
+  position: absolute;
+}
+.div1 {
+  top: 5px;
+  left: 30%;
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 48px;
+  font-weight: 800;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.buttonBH {
+  cursor: pointer;
+  border: 0;
+  pointer-events: none;
+  padding: 0;
+  background-color: transparent;
+  top: 0.02px;
+  left: 0;
+  text-align: center;
+  width: 145px;
+  height: 82.03px;
+  background-image: url(/public/blue2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.buttonStyle1 {
+  cursor: pointer;
+  border: 0;
+  z-index: 0;
+}
+.buttonStyle1,
+.buttonStyle11,
+.buttonStyle12 {
+  padding: 8px 27px;
+  background-color: #0034d1;
+  border-radius: 16px;
+  width: 84px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.buttonStyle11 {
+  cursor: pointer;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.buttonStyle12 {
+  z-index: 2;
+}
+.buttonStyle12,
+.buttonStyle13,
+.buttonStyle14,
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton {
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+.buttonStyle13,
+.buttonStyle14 {
+  padding: 8px 27px;
+  background-color: #0034d1;
+  border-radius: 16px;
+  width: 84px;
+  box-sizing: border-box;
+}
+.buttonStyle13 {
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+}
+.buttonStyle14 {
+  margin: 0 !important;
+  top: -2px;
+  left: 0;
+  z-index: 4;
+}
+.buttonStyle14,
+.buttonStyle15,
+.buttonStyle1Parent {
+  display: flex;
+  flex-direction: row;
+}
+.buttonStyle15 {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 27px;
+  background-color: #0034d1;
+  margin: 0 !important;
+  top: -2px;
+  left: 112px;
+  border-radius: 16px;
+  width: 84px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+.buttonStyle1Parent {
+  top: 0;
+  left: 0;
+  width: 196px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.componentParent {
+  position: absolute;
+  display: block;
+  width: 220px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  overflow: hidden;
+  left:-400px;
+  top:-400px;
+}
+.allOn {
+  position: relative;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #fff;
+  text-align: left;
+}
+.allOnWrapper,
+.close,
+.notes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.close,
+.notes {
+  cursor: pointer;
+  border: 0;
+}
+.notes {
+  padding: 8px 27px;
+  background-color: #0034d1;
+  position: absolute;
+  top: 150px;
+  left: 56px;
+  border-radius: 16px;
+  width: 84px;
+  box-sizing: border-box;
+}
+.close {
+  top: 0;
+  left: 112px;
+}
+.book,
+.close,
+.flash {
+  padding: 8px 27px;
+  background-color: #0034d1;
+  position: absolute;
+  border-radius: 16px;
+  width: 84px;
+  box-sizing: border-box;
+}
+.book {
+  cursor: pointer;
+  border: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flash {
+  top: 50px;
+  left: 56px;
+}
+.disable,
+.flash,
+.buttonsButton,
+.reserve {
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.reserve {
+  padding: 8px 27px;
+  background-color: #0034d1;
+  position: absolute;
+  top: 100px;
+  left: 1px;
+  border-radius: 16px;
+  width: 84px;
+  box-sizing: border-box;
+}
+.disable,
+.buttonsButton {
+  padding: 0;
+  background-color: transparent;
+}
+.disable {
+  padding: 8px 27px;
+  background-color: #0034d1;
+  position: absolute;
+  top: 100px;
+  left: 112px;
+  border-radius: 16px;
+  width: 84px;
+  box-sizing: border-box;
+}
+.notesParent {
+  display: flex;
+  position: absolute;
+  width: 300px !important;
+  height: 250px;
+  overflow: hidden;
+  left: 100px;
+  bottom: 250px;
+  
+}
+
+.timerdiv {
+  position: absolute;
+  bottom: 200px;
+  left: 150px;
+}
+.button,
+.divBH {
+  position: absolute;
+}
+.divBH {
+  left: 30%;
+  cursor: pointer;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Open Sans";
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.buttonBH {
+  cursor: pointer;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-weight: 800;
+  font-family: "Open Sans";
+  border: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  padding: 0;
+  width: 145px;
+  height: 82.03px;
+  background-image: url(/public/blue2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.button,
+.divBV {
+  position: absolute;
+}
+.divBV {
+  cursor: pointer;
+  text-align:center;
+  pointer-events: none;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Open Sans";
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.buttonBV {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 81.25px;
+  height: 148.67px;
+  background-image: url(/public/bluevert1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.divGH {
+  position: absolute;
+}
+.buttonGH {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  pointer-events: none;
+  background-color: transparent;
+  top: 0;
+  font-weight: 800;
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  left: 0;
+  width: 143px;
+  height: 84px;
+  background-image: url(/public/green3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.divGH {
+  left: -18px;
+  top: -30px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 800;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  font-family: "Open Sans";
+  color: #000;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+.button,
+.divGV {
+  position: absolute;
+}
+.buttonGV {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  pointer-events: none;
+  cursor: pointer;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Open Sans";
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  top: 0;
+  left: 0;
+  width: 84.25px;
+  height: 147.67px;
+  background-image: url(/public/greenvert1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.divGV {
+  bottom: 5px;
+  left: 4px;
+  cursor: pointer;
+  font-size: 48px;
+  font-weight: 800;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.parent {
+  position: absolute;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 920px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+}
+.t1 {
+  position: absolute;
+  top: 763.86px;
+  left: 12.5px;
+  width: 81.25px;
+  height: 148.67px;
+  text-align: center;
+  font-family: "Open Sans";
+}
+.t2 {
+  top: 669.02px;
+  left: 12.5px;
+  height: 82.03px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t4 {
+  top: 669.02px;
+  left: 171.25px;
+  width: 81.25px;
+  height: 148.67px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t3 {
+  position: absolute;
+  top: 830.51px;
+  left: 107.5px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+}
+.t5 {
+  position: absolute;
+  top: 764px;
+  left: 266px;
+  width: 80px;
+  height: 148.67px;
+  text-align: center;
+  font-size: 48px;
+  color: #ff2002;
+  font-family: "Open Sans";
+}
+.t7 {
+  top: 831px;
+  left: 360px;
+  width: 146.25px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t9 {
+  top: 764px;
+  left: 520px;
+  width: 81.25px;
+  height: 148.67px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t11 {
+  top: 831px;
+  left: 616px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t13 {
+  top: 764px;
+  left: 776px;
+  width: 81.25px;
+  height: 148.67px;
+  text-align: center;
+  font-size: 48px;
+  color: #ff2002;
+  font-family: "Open Sans";
+  position: absolute;
+}
+
+.t6 { 
+  top: 669.02px;
+  left: 222.5px;
+  width: 145px;
+  height: 82.03px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t8 {
+  top: 669.02px;
+  left: 425px;
+  width: 81.25px;
+  height: 148.67px;
+  text-align: center;
+  font-size: 48px;
+  color: #ff2002;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t10 {
+  top: 669.02px;
+  left: 477px;
+  width: 146.25px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t12 {
+  top: 669.02px;
+  left: 680px;
+  width: 81.25px;
+  height: 148.67px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t14 { 
+  top: 669.02px;
+  left: 776.25px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t16 { 
+  top: 830.51px;
+  left: 936.25px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t17 { 
+  top: 830.51px;
+  left: 1095px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t18 {
+  top: 750.75px;
+  left: 936.25px;
+  width: 125px;
+  height: 74.47px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t19 { 
+  top: 750.36px;
+  left: 1095px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t20 {
+  top: 661.49px;
+  left: 936px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t21 {
+  top: 661.2px;
+  left: 1095px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t22 {
+  top: 521.22px;
+  left: 934.25px;
+  width: 72.25px;
+  height: 128.16px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t23 {
+  top: 521.22px;
+  left: 1151.5px;
+  width: 72.5px;
+  height: 128.16px;
+  text-align: center;
+  font-size: 64px;
+  color: #ff2002;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t25 { 
+  top: 367.24px;
+  left: 1151.5px;
+  width: 72.5px;
+  height: 128.16px;
+  text-align: center;
+  font-size: 48px;
+  color: #ff2002;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t24 {
+  top: 367.24px;
+  left: 934.25px;
+  width: 72.5px;
+  height: 128.16px;
+  text-align: center;
+  font-size: 48px;
+  color: #ff2002;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t26 {
+  top: 263px;
+  left: 936.25px;
+  width: 125px;
+  height: 74.43px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t27 {
+  top: 263px;
+  left: 1095px;
+  width: 125px;
+  height: 74.43px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t28 {
+  top: 173.94px;
+  left: 936.25px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t29 {
+  top: 173.94px;
+  left: 1095px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t30 {
+  top: 84.79px;
+  left: 936.25px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+.t31 {
+  top: 84.79px;
+  left: 1095px;
+  width: 125px;
+  height: 74.34px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: "Open Sans";
+  position: absolute;
+}
+
+.greyout {
+  filter: grayscale(100%)
+}
