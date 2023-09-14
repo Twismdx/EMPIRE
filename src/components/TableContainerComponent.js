@@ -20,12 +20,18 @@ const TableContainerComponent = ({
 	status,
 	setStatus,
 	id,
-	total,
-	setTotal,
-	outstanding,
-	setOutstanding
 }) => {
-	const { hourlyRate,dayRate,nightRate,satRate,timers } = useGlobalContext()
+	const {
+		hourlyRate,
+		dayRate,
+		nightRate,
+		satRate,
+		timers,
+		total,
+		setTotal,
+		outstanding,
+		setOutstanding,
+	} = useGlobalContext()
 
 	const index1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16]
 	const index2 = [17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]

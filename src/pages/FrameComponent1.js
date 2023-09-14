@@ -393,7 +393,7 @@ const FrameComponent1 = (props) => {
 			total += parseInt(counter.counter.prepaid)
 			total += parseInt(counter.counter.paid)
 		})
-		return total
+		return total.toFixed(2)
 	}
 
 	function getTotalOutstanding(status) {
@@ -402,14 +402,14 @@ const FrameComponent1 = (props) => {
 		Object.values(status).forEach(counter => {
 			total += parseInt(counter.counter.paid)
 		})
-		return total
+		return total.toFixed(2)
 	}
 
 	useEffect(() => {
 		const outstanding = getTotalOutstanding(status)
-		setOutstanding(outstanding.toFixed(2))
+		setOutstanding(outstanding)
 		const paid = getTotalPaid(status)
-		setTotal(paid.toFixed(2))
+		setTotal(paid)
 	},[status])
 
 	return (
