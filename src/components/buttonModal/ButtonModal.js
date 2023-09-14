@@ -1,12 +1,8 @@
 import React,{ useState,useEffect,forwardRef } from 'react'
 import styles from './ButtonModal.module.css'
-import Flash from '../../utils/dynamic'
 
 const ButtonModal = ({ id,closeModal,handleBook,handleReserve,handleDisable,handleFlash,status }) => {
 
-    const kidFlash = () => {
-        Flash(id,'flash')
-    }
     // const [show, setShow] = useState(false)
     return (
         <div className={styles.modal} id='modal'>
@@ -15,7 +11,7 @@ const ButtonModal = ({ id,closeModal,handleBook,handleReserve,handleDisable,hand
                 <button className={status[id].booked ? styles.buttonB : styles.button} id='book' onClick={() => handleBook(id)}>
                     {status[id].booked ? 'Close' : 'Book'}
                 </button>
-                <button className={styles.button} id='flash' onClick={kidFlash}>
+                <button className={styles.button} id='flash' onClick={() => handleFlash(id)}>
                     Flash
                 </button>
                 <button className={status[id].reserved ? styles.buttonB : styles.button} id='reserve' onClick={() => handleReserve(id)}>

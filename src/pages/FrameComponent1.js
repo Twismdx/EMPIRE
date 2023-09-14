@@ -339,6 +339,20 @@ const FrameComponent1 = (props) => {
 		return initialStatus
 	})
 
+	const handleFlash = async (activeId) => {
+		try {
+			const response = await fetch(`https://10.1.0.100:8000/${activeId}/flash`,{
+				method: 'POST',
+			})
+			const result = await response.json()
+			if (!response.ok) {
+				throw new Error("Oops! Something has gone wrong!")
+			} else console.log('Success:',result)
+		} catch (error) {
+			console.error('Error:',error)
+		}
+	}
+
 	const handleBook = (id) => {
 		setStatus((prevStatus) => {
 			if (prevStatus.hasOwnProperty(id)) {
@@ -381,9 +395,6 @@ const FrameComponent1 = (props) => {
 			}
 			return prevStatus
 		})
-	}
-	const handleFlash = (activeId,flash) => {
-		onFetch(activeId,flash)
 	}
 
 	function getTotalPaid(status) {
