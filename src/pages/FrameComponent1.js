@@ -10,12 +10,10 @@ import Modal from '../components/Modal'
 import { UseFetch } from '../components/UseFetch'
 
 const FrameComponent1 = (props) => {
-	const { selected,setSelected,onChange } = useGlobalContext()
+	const { selected,setSelected,onChange,total,setTotal,outstanding,setOutstanding } = useGlobalContext()
 	const [activeId,setActiveId] = useState(null)
 	const [isFramePopupOpen,setFramePopupOpen] = useState(false)
 	const [isButtonModalOpen,setButtonModalOpen] = useState(false)
-	const [total,setTotal] = useState(0)
-	const [outstanding,setOutstanding] = useState(0)
 
 	const openButtonModal = useCallback((id) => {
 		setActiveId(id)
@@ -645,10 +643,6 @@ const FrameComponent1 = (props) => {
 						imageUrl='blue'
 						rotation='90'
 					/>
-				</div>
-				<div className={styles.stats}>
-					<b className={styles.due}>Due $ {outstanding}</b>
-					<b className={styles.paid}>Paid $ {total}</b>
 				</div>
 			</div>
 			<div

@@ -13,6 +13,8 @@ const ContextProvider = ({ children }) => {
 	const [time,setTime] = useState(currentTime)
 	const [day,setDay] = useState(currentDay)
 	const [selected,setSelected] = useState(null)
+	const [total,setTotal] = useState(0)
+	const [outstanding,setOutstanding] = useState(0)
 	const onChange = (e) => {
 		setSelected(e.target.value)
 		console.log(e.target.value)
@@ -113,6 +115,10 @@ const ContextProvider = ({ children }) => {
 				selected,
 				setSelected,
 				onChange,
+				total,
+				setTotal,
+				outstanding,
+				setOutstanding
 			}}
 		>
 			{children}

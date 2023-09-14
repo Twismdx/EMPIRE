@@ -20,6 +20,10 @@ const TableContainerComponent = ({
 	status,
 	setStatus,
 	id,
+	total,
+	setTotal,
+	outstanding,
+	setOutstanding
 }) => {
 	const { hourlyRate,dayRate,nightRate,satRate,timers } = useGlobalContext()
 
@@ -84,6 +88,10 @@ const TableContainerComponent = ({
 	return (
 		<>
 			<div className={styles.div200}>
+				<div className={styles.stats}>
+					<b className={styles.due}>Due $ {outstanding}</b>
+					<b className={styles.paid}>Paid $ {total}</b>
+				</div>
 				<TableContainer className={styles.tableContainer}>
 					<Table className={styles.table}>
 						<TableHeadStyled className={styles.thead}>
