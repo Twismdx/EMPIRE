@@ -1,20 +1,20 @@
 .button,
 .div1 {
-  position: absolute;
+	position: absolute;
 }
 .button {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 72.5px;
-  height: 128.16px;
-  background-image: url(/public/greenvert1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 72.5px;
+	height: 128.16px;
+	background-image: url(/public/greenvert1@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 /* .greenv {
   position: absolute;
@@ -23,2537 +23,2601 @@
   font-weight: 800;
 } */
 .div {
-  top: 515.22px;
-  left: 936.25px;
-  width: 296.25px;
-  height: 128.16px;
+	top: 515.22px;
+	left: 936.25px;
+	width: 296.25px;
+	height: 128.16px;
 }
 .button1,
 .div,
 .div3 {
-  position: absolute;
+	position: absolute;
 }
 .button1 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 72.5px;
-  height: 128.16px;
-  background-image: url(/public/greenvert3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 72.5px;
+	height: 128.16px;
+	background-image: url(/public/greenvert3@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div3 {
-  top: 31.28px;
-  left: 234px;
-  font-size: 48px;
-  font-weight: 800;
-  color: #000;
+	top: 31.28px;
+	left: 234px;
+	font-size: 48px;
+	font-weight: 800;
+	color: #000;
 }
 .bookedvChild {
-  position: absolute;
-  height: 56.57%;
-  width: 176.78%;
-  top: 100%;
-  right: -76.78%;
-  bottom: -56.57%;
-  left: 0;
-  background-color: #454545;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-  mix-blend-mode: color;
+	position: absolute;
+	height: 56.57%;
+	width: 176.78%;
+	top: 100%;
+	right: -76.78%;
+	bottom: -56.57%;
+	left: 0;
+	background-color: #454545;
+	transform: rotate(-90deg);
+	transform-origin: 0 0;
+	mix-blend-mode: color;
 }
 .bookedv {
-  position: absolute;
-  top: -9.22px;
-  left: 221.5px;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	top: -9.22px;
+	left: 221.5px;
+	width: 82.03px;
+	height: 145px;
 }
 .reserved,
 .x {
-  position: absolute;
-  top: 20.69%;
-  left: 23.16%;
-  font-weight: 800;
-  -webkit-text-stroke: 1.5px #000;
+	position: absolute;
+	top: 20.69%;
+	left: 23.16%;
+	font-weight: 800;
+	-webkit-text-stroke: 1.5px #000;
 }
 .reserved {
-  top: 6.21%;
-  left: 70.71%;
-  transform: rotate(90deg);
-  transform-origin: 0 0;
+	top: 6.21%;
+	left: 70.71%;
+	transform: rotate(90deg);
+	transform-origin: 0 0;
 }
 .reservedv {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: -1.22%;
-  bottom: 0;
-  left: 1.22%;
-  font-size: 24px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: -1.22%;
+	bottom: 0;
+	left: 1.22%;
+	font-size: 24px;
 }
 .disabledv,
 .reservedv1,
 .reservedv2 {
-  position: absolute;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	width: 82.03px;
+	height: 145px;
 }
 .disabledv {
-  top: -8.22px;
-  left: 221.5px;
-  font-size: 64px;
+	top: -8.22px;
+	left: 221.5px;
+	font-size: 64px;
 }
 .reservedv1,
 .reservedv2 {
-  top: -7.22px;
-  left: -9.5px;
+	top: -7.22px;
+	left: -9.5px;
 }
 .reservedv2 {
-  left: 221.5px;
+	left: 221.5px;
 }
 .div2 {
-  top: 515.22px;
-  left: 1167.5px;
-  width: 72.5px;
-  height: 129.16px;
+	top: 515.22px;
+	left: 1167.5px;
+	width: 72.5px;
+	height: 129.16px;
 }
 .button2,
 .div2,
 .div5 {
-  position: absolute;
+	position: absolute;
 }
 .button2 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 72.5px;
-  height: 128.16px;
-  background-image: url(/public/greenvert3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 72.5px;
+	height: 128.16px;
+	background-image: url(/public/greenvert3@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .greenv {
-  position: absolute;
-  top: 27.26px;
-  left: 8px;
-  font-weight: 800;
-  color: #000;
+	position: absolute;
+	top: 27.26px;
+	left: 8px;
+	font-weight: 800;
+	color: #000;
 }
 .bookedv1,
 .disabledv1,
 .reservedv4 {
-  position: absolute;
-  top: -9.24px;
-  left: -4.5px;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	top: -9.24px;
+	left: -4.5px;
+	width: 82.03px;
+	height: 145px;
 }
 .disabledv1,
 .reservedv4 {
-  font-size: 64px;
+	font-size: 64px;
 }
 .reservedv4 {
-  top: -8.24px;
-  left: -3.5px;
-  font-size: 24px;
+	top: -8.24px;
+	left: -3.5px;
+	font-size: 24px;
 }
 .div4 {
-  top: 374.24px;
-  left: 1167.5px;
-  width: 72.5px;
-  height: 128.16px;
-  color: #ff2002;
+	top: 374.24px;
+	left: 1167.5px;
+	width: 72.5px;
+	height: 128.16px;
+	color: #ff2002;
 }
 .button3,
 .div4,
 .div7 {
-  position: absolute;
+	position: absolute;
 }
 .button3 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 72.5px;
-  height: 128.16px;
-  background-image: url(/public/greenvert4@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 72.5px;
+	height: 128.16px;
+	background-image: url(/public/greenvert4@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div7 {
-  top: 31.26px;
-  left: 5.25px;
-  font-weight: 800;
-  color: #000;
+	top: 31.26px;
+	left: 5.25px;
+	font-weight: 800;
+	color: #000;
 }
 .bookedv2,
 .disabledv2,
 .reservedv6 {
-  position: absolute;
-  top: -9.24px;
-  left: -5.25px;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	top: -9.24px;
+	left: -5.25px;
+	width: 82.03px;
+	height: 145px;
 }
 .disabledv2,
 .reservedv6 {
-  left: -7.25px;
-  font-size: 64px;
+	left: -7.25px;
+	font-size: 64px;
 }
 .reservedv6 {
-  left: -5.25px;
-  font-size: 24px;
+	left: -5.25px;
+	font-size: 24px;
 }
 .div6 {
-  top: 374.24px;
-  left: 936.25px;
-  width: 72.5px;
-  height: 128.16px;
+	top: 374.24px;
+	left: 936.25px;
+	width: 72.5px;
+	height: 128.16px;
 }
 .button4,
 .div6,
 .div9 {
-  position: absolute;
+	position: absolute;
 }
 .button4 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 125px;
-  height: 74.34px;
-  background-image: url(/public/green1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 125px;
+	height: 74.34px;
+	background-image: url(/public/green1@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div9 {
-  top: 1.14px;
-  left: 32.5px;
-  font-weight: 800;
+	top: 1.14px;
+	left: 32.5px;
+	font-weight: 800;
 }
 .bookedChild,
 .disabledChild {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #454545;
-  mix-blend-mode: color;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #454545;
+	mix-blend-mode: color;
 }
 .disabledChild {
-  height: 94.28%;
-  top: 3.45%;
-  bottom: 2.27%;
+	height: 94.28%;
+	top: 3.45%;
+	bottom: 2.27%;
 }
 .disabled,
 .x3 {
-  position: absolute;
-  top: 0;
+	position: absolute;
+	top: 0;
 }
 .x3 {
-  left: 32.41%;
-  font-weight: 800;
-  -webkit-text-stroke: 1.5px #000;
+	left: 32.41%;
+	font-weight: 800;
+	-webkit-text-stroke: 1.5px #000;
 }
 .disabled {
-  height: 106.07%;
-  width: 100%;
-  right: -0.34%;
-  bottom: -6.07%;
-  left: 0.34%;
+	height: 106.07%;
+	width: 100%;
+	right: -0.34%;
+	bottom: -6.07%;
+	left: 0.34%;
 }
 .reservedChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 145px;
-  height: 82.03px;
-  mix-blend-mode: color;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 145px;
+	height: 82.03px;
+	mix-blend-mode: color;
 }
 .reserved7 {
-  position: absolute;
-  top: 24px;
-  left: 12px;
-  font-weight: 800;
-  -webkit-text-stroke: 1.5px #000;
+	position: absolute;
+	top: 24px;
+	left: 12px;
+	font-weight: 800;
+	-webkit-text-stroke: 1.5px #000;
 }
 .reserved6 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: -0.34%;
-  bottom: 0;
-  left: 0.34%;
-  font-size: 24px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: -0.34%;
+	bottom: 0;
+	left: 0.34%;
+	font-size: 24px;
 }
 .booked {
-  position: absolute;
-  top: -3.36px;
-  left: -10px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	position: absolute;
+	top: -3.36px;
+	left: -10px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button5,
 .div8 {
-  width: 125px;
-  height: 74.34px;
+	width: 125px;
+	height: 74.34px;
 }
 .div8 {
-  position: absolute;
-  top: 743.36px;
-  left: 1115px;
+	position: absolute;
+	top: 743.36px;
+	left: 1115px;
 }
 .button5 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0.14px;
-  left: 0;
-  background-image: url(/public/green2@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0.14px;
+	left: 0;
+	background-image: url(/public/green2@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked1,
 .button5,
 .div11 {
-  position: absolute;
+	position: absolute;
 }
 .div11 {
-  top: 0;
-  left: 33.25px;
-  font-weight: 800;
+	top: 0;
+	left: 33.25px;
+	font-weight: 800;
 }
 .booked1 {
-  top: -3.5px;
-  left: -10.25px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -3.5px;
+	left: -10.25px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button6,
 .div10 {
-  position: absolute;
-  top: 744.5px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.47px;
+	position: absolute;
+	top: 744.5px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.47px;
 }
 .button6 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0.09px;
-  left: 0;
-  height: 74.34px;
-  background-image: url(/public/green5@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0.09px;
+	left: 0;
+	height: 74.34px;
+	background-image: url(/public/green5@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked2 {
-  position: absolute;
-  top: -8px;
-  left: -9.25px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	position: absolute;
+	top: -8px;
+	left: -9.25px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button7,
 .div12 {
-  position: absolute;
-  top: 287px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.43px;
+	position: absolute;
+	top: 287px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.43px;
 }
 .button7 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0.09px;
-  left: 0;
-  height: 74.34px;
-  background-image: url(/public/green6@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0.09px;
+	left: 0;
+	height: 74.34px;
+	background-image: url(/public/green6@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .greenh {
-  position: absolute;
-  top: 0;
-  left: 34.5px;
-  font-weight: 800;
+	position: absolute;
+	top: 0;
+	left: 34.5px;
+	font-weight: 800;
 }
 .booked3,
 .div14,
 .div15 {
-  position: absolute;
+	position: absolute;
 }
 
 .div13 {
-  top: 0;
-  left: 34.5px;
-  font-weight: 800;
+	top: 0;
+	left: 34.5px;
+	font-weight: 800;
 }
 .div12 {
-  position: absolute;
-  top: 287px;
-  left: 936px;
-  width: 125px;
-  height: 75px;
+	position: absolute;
+	top: 287px;
+	left: 936px;
+	width: 125px;
+	height: 75px;
 }
 .booked3 {
-  top: -8px;
-  left: -9px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -8px;
+	left: -9px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .div14 {
-  top: 287px;
-  left: 1115px;
-  width: 125px;
-  height: 74.43px;
+	top: 287px;
+	left: 1115px;
+	width: 125px;
+	height: 74.43px;
 }
 .button8 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 125px;
-  height: 74.34px;
-  background-image: url(/public/green7@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 125px;
+	height: 74.34px;
+	background-image: url(/public/green7@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked4,
 .button8,
 .div17 {
-  position: absolute;
+	position: absolute;
 }
 .div17 {
-  top: 4.06px;
-  left: 32px;
-  font-weight: 800;
+	top: 4.06px;
+	left: 32px;
+	font-weight: 800;
 }
 .booked4 {
-  top: -7.94px;
-  left: -10px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -7.94px;
+	left: -10px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button9,
 .div16 {
-  width: 125px;
-  height: 74.34px;
+	width: 125px;
+	height: 74.34px;
 }
 .div16 {
-  position: absolute;
-  top: 199.94px;
-  left: 1115px;
+	position: absolute;
+	top: 199.94px;
+	left: 1115px;
 }
 .button9 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/green9@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/green9@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked5,
 .button9,
 .div19 {
-  position: absolute;
+	position: absolute;
 }
 .div19 {
-  top: 0.21px;
-  left: 32.5px;
-  font-weight: 800;
+	top: 0.21px;
+	left: 32.5px;
+	font-weight: 800;
 }
 .booked5 {
-  top: -7.79px;
-  left: -10px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -7.79px;
+	left: -10px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button10,
 .div18 {
-  width: 125px;
-  height: 74.34px;
+	width: 125px;
+	height: 74.34px;
 }
 .div18 {
-  position: absolute;
-  top: 112.79px;
-  left: 1115px;
+	position: absolute;
+	top: 112.79px;
+	left: 1115px;
 }
 .button10 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/green10@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/green10@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked6,
 .button10,
 .div21 {
-  position: absolute;
+	position: absolute;
 }
 .div21 {
-  top: 0.21px;
-  left: 33.25px;
-  font-weight: 800;
+	top: 0.21px;
+	left: 33.25px;
+	font-weight: 800;
 }
 .booked6 {
-  top: -7.79px;
-  left: -9.25px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -7.79px;
+	left: -9.25px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button11,
 .div20 {
-  width: 125px;
-  height: 74.34px;
+	width: 125px;
+	height: 74.34px;
 }
 .div20 {
-  position: absolute;
-  top: 112.79px;
-  left: 936.25px;
+	position: absolute;
+	top: 112.79px;
+	left: 936.25px;
 }
 .button11 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/green8@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/green8@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked7,
 .button11,
 .div23 {
-  position: absolute;
+	position: absolute;
 }
 .div23 {
-  top: 4.06px;
-  left: 33.25px;
-  font-weight: 800;
+	top: 4.06px;
+	left: 33.25px;
+	font-weight: 800;
 }
 .booked7 {
-  top: -7.94px;
-  left: -9.25px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -7.94px;
+	left: -9.25px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button12,
 .div22 {
-  width: 125px;
-  height: 74.34px;
+	width: 125px;
+	height: 74.34px;
 }
 .div22 {
-  position: absolute;
-  top: 199.94px;
-  left: 936.25px;
+	position: absolute;
+	top: 199.94px;
+	left: 936.25px;
 }
 .button12 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/green3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/green3@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked8,
 .button12,
 .div25 {
-  position: absolute;
+	position: absolute;
 }
 .div25 {
-  top: 4.01px;
-  left: 34.5px;
-  font-weight: 800;
+	top: 4.01px;
+	left: 34.5px;
+	font-weight: 800;
 }
 .booked8 {
-  top: -7.49px;
-  left: -9px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -7.49px;
+	left: -9px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button21,
 .div24 {
-  width: 125px;
-  height: 74.34px;
+	width: 125px;
+	height: 74.34px;
 }
 .div24 {
-  position: absolute;
-  top: 657.49px;
-  left: 935px;
+	position: absolute;
+	top: 657.49px;
+	left: 935px;
 }
 .button21 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/green4@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/green4@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked9,
 .button21,
 .div27 {
-  position: absolute;
+	position: absolute;
 }
 .div27 {
-  top: 4.3px;
-  left: 32.5px;
-  font-weight: 800;
+	top: 4.3px;
+	left: 32.5px;
+	font-weight: 800;
 }
 .booked9 {
-  top: -7.2px;
-  left: -10px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -7.2px;
+	left: -10px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button5,
 .divb21 {
-  position: absolute;
-  top: 656.2px;
-  left: 1115px;
-  width: 125px;
-  height: 74.34px;
+	position: absolute;
+	top: 656.2px;
+	left: 1115px;
+	width: 125px;
+	height: 74.34px;
 }
 .button5 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 81.25px;
-  height: 148.67px;
-  background-image: url(/public/bluevert1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 81.25px;
+	height: 148.67px;
+	background-image: url(/public/bluevert1@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div29 {
-  position: absolute;
-  top: 41.14px;
-  left: 26.5px;
-  font-weight: 800;
-  color: #000;
+	position: absolute;
+	top: 41.14px;
+	left: 26.5px;
+	font-weight: 800;
+	color: #000;
 }
 .bookedv3,
 .disabledv3,
 .reservedv8 {
-  position: absolute;
-  top: 0.14px;
-  left: -0.5px;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	top: 0.14px;
+	left: -0.5px;
+	width: 82.03px;
+	height: 145px;
 }
 .disabledv3,
 .reservedv8 {
-  font-size: 64px;
+	font-size: 64px;
 }
 .reservedv8 {
-  top: 4.14px;
-  font-size: 24px;
+	top: 4.14px;
+	font-size: 24px;
 }
 .divb1 {
-  position: absolute;
-  top: 763.86px;
-  left: 12.5px;
-  width: 81.25px;
-  height: 148.67px;
-  color: #ff2002;
+	position: absolute;
+	top: 763.86px;
+	left: 12.5px;
+	width: 81.25px;
+	height: 148.67px;
+	color: #ff2002;
 }
 .bookedv4,
 .button15 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 82.03px;
+	height: 145px;
 }
 .button15 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 80px;
-  height: 148.67px;
-  background-image: url(/public/bluevert3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 148.67px;
+	background-image: url(/public/bluevert3@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .bluev {
-  position: absolute;
-  top: 41px;
-  left: 26px;
-  font-weight: 800;
-  color: #000;
+	position: absolute;
+	top: 41px;
+	left: 26px;
+	font-weight: 800;
+	color: #000;
 }
 .disabledv4,
 .reservedv10 {
-  width: 82.03px;
-  height: 145px;
+	width: 82.03px;
+	height: 145px;
 }
 .disabledv4 {
-  position: absolute;
-  top: 1px;
-  left: -1px;
-  font-size: 64px;
+	position: absolute;
+	top: 1px;
+	left: -1px;
+	font-size: 64px;
 }
 .reservedv10 {
-  top: 4px;
-  left: 0;
-  font-size: 24px;
+	top: 4px;
+	left: 0;
+	font-size: 24px;
 }
 .dib5,
 .div33,
 .reservedv10 {
-  position: absolute;
+	position: absolute;
 }
 .dib5 {
-  top: 764px;
-  left: 266px;
-  width: 80px;
-  height: 148.67px;
-  color: #ff2002;
+	top: 764px;
+	left: 266px;
+	width: 80px;
+	height: 148.67px;
+	color: #ff2002;
 }
 .div33 {
-  top: 41px;
-  left: 27px;
-  font-weight: 800;
+	top: 41px;
+	left: 27px;
+	font-weight: 800;
 }
 .button16 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 1px;
-  width: 81.25px;
-  height: 148.67px;
-  background-image: url(/public/bluevert5@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 81.25px;
+	height: 148.67px;
+	background-image: url(/public/bluevert5@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .disabledv5 {
-  top: 6px;
-  left: 0;
-  width: 82.03px;
-  height: 145px;
+	top: 6px;
+	left: 0;
+	width: 82.03px;
+	height: 145px;
 }
 .disabledv5,
 .div32,
 .frame {
-  position: absolute;
+	position: absolute;
 }
 .frame {
-  top: 0;
-  left: -1px;
-  width: 82.25px;
-  height: 151px;
-  overflow: hidden;
-  font-size: 64px;
-  color: #ff2002;
+	top: 0;
+	left: -1px;
+	width: 82.25px;
+	height: 151px;
+	overflow: hidden;
+	font-size: 64px;
+	color: #ff2002;
 }
 .div32 {
-  top: 764px;
-  left: 520px;
-  width: 81.25px;
-  height: 148.67px;
+	top: 764px;
+	left: 520px;
+	width: 81.25px;
+	height: 148.67px;
 }
 .bookedv5,
 .button17 {
-  position: absolute;
-  top: 0;
-  left: -1px;
-  width: 82.03px;
-  height: 145px;
+	position: absolute;
+	top: 0;
+	left: -1px;
+	width: 82.03px;
+	height: 145px;
 }
 .button17 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  left: 0;
-  width: 81.25px;
-  height: 148.67px;
-  background-image: url(/public/bluevert5@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	left: 0;
+	width: 81.25px;
+	height: 148.67px;
+	background-image: url(/public/bluevert5@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div35 {
-  position: absolute;
-  top: 41px;
-  left: 13px;
-  font-weight: 800;
-  color: #000;
+	position: absolute;
+	top: 41px;
+	left: 13px;
+	font-weight: 800;
+	color: #000;
 }
 .disabledv6 {
-  position: absolute;
-  top: 0;
-  left: -1px;
-  width: 82.03px;
-  height: 145px;
-  font-size: 64px;
+	position: absolute;
+	top: 0;
+	left: -1px;
+	width: 82.03px;
+	height: 145px;
+	font-size: 64px;
 }
 .button18,
 .div34 {
-  position: absolute;
-  width: 81.25px;
-  height: 148.67px;
+	position: absolute;
+	width: 81.25px;
+	height: 148.67px;
 }
 .div34 {
-  top: 764px;
-  left: 776px;
-  color: #ff2002;
+	top: 764px;
+	left: 776px;
+	color: #ff2002;
 }
 .button18 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/bluevert6@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/bluevert6@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div37 {
-  position: absolute;
-  top: 41.48px;
-  left: 13px;
-  font-weight: 800;
+	position: absolute;
+	top: 41.48px;
+	left: 13px;
+	font-weight: 800;
 }
 .bookedv6,
 .disabledv7 {
-  top: -0.02px;
-  left: -1px;
-  width: 82.03px;
-  height: 145px;
+	top: -0.02px;
+	left: -1px;
+	width: 82.03px;
+	height: 145px;
 }
 .bookedv6 {
-  position: absolute;
+	position: absolute;
 }
 .disabledv7 {
-  font-size: 64px;
-  color: #ff2002;
+	font-size: 64px;
+	color: #ff2002;
 }
 .disabledv7,
 .div36,
 .div39 {
-  position: absolute;
+	position: absolute;
 }
 .div36 {
-  top: 669.02px;
-  left: 680px;
-  width: 81.25px;
-  height: 148.67px;
+	top: 669.02px;
+	left: 680px;
+	width: 81.25px;
+	height: 148.67px;
 }
 .div39 {
-  top: 41.48px;
-  left: 26.5px;
-  font-weight: 800;
-  color: #000;
+	top: 41.48px;
+	left: 26.5px;
+	font-weight: 800;
+	color: #000;
 }
 .disabledv8,
 .reservedv16 {
-  position: absolute;
-  top: 0.98px;
-  left: 0;
-  width: 82.03px;
-  height: 145px;
-  font-size: 64px;
+	position: absolute;
+	top: 0.98px;
+	left: 0;
+	width: 82.03px;
+	height: 145px;
+	font-size: 64px;
 }
 .reservedv16 {
-  top: 3.98px;
-  left: 1px;
-  font-size: 24px;
+	top: 3.98px;
+	left: 1px;
+	font-size: 24px;
 }
 .div38 {
-  position: absolute;
-  top: 669.02px;
-  left: 425px;
-  width: 81.25px;
-  height: 148.67px;
-  color: #ff2002;
+	position: absolute;
+	top: 669.02px;
+	left: 425px;
+	width: 81.25px;
+	height: 148.67px;
+	color: #ff2002;
 }
 .button20 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 145px;
-  height: 82.03px;
-  background-image: url(/public/blue1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 145px;
+	height: 82.03px;
+	background-image: url(/public/blue1@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div41 {
-  position: absolute;
-  top: 7.99px;
-  left: 58.5px;
-  font-weight: 800;
+	position: absolute;
+	top: 7.99px;
+	left: 58.5px;
+	font-weight: 800;
 }
 .booked10,
 .button21,
 .div40 {
-  position: absolute;
-  width: 145px;
-  height: 82.03px;
+	position: absolute;
+	width: 145px;
+	height: 82.03px;
 }
 .booked10 {
-  top: -0.51px;
-  left: 0.5px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -0.51px;
+	left: 0.5px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button21,
 .div40 {
-  top: 830.51px;
-  left: 107.5px;
+	top: 830.51px;
+	left: 107.5px;
 }
 .button21 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 81.25px;
-  height: 148.67px;
-  background-image: url(/public/bluevert2@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 81.25px;
+	height: 148.67px;
+	background-image: url(/public/bluevert2@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div43 {
-  position: absolute;
-  top: 40.48px;
-  left: 23.25px;
-  font-weight: 800;
+	position: absolute;
+	top: 40.48px;
+	left: 23.25px;
+	font-weight: 800;
 }
 .disabledv9 {
-  top: 3.98px;
-  left: -1.25px;
-  width: 82.03px;
-  height: 145px;
-  font-size: 64px;
-  color: #ff2002;
+	top: 3.98px;
+	left: -1.25px;
+	width: 82.03px;
+	height: 145px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .disabledv9,
 .div42,
 .div45 {
-  position: absolute;
+	position: absolute;
 }
 .div42 {
-  top: 669.02px;
-  left: 171.25px;
-  width: 81.25px;
-  height: 148.67px;
+	top: 669.02px;
+	left: 171.25px;
+	width: 81.25px;
+	height: 148.67px;
 }
 .div45 {
-  top: 7.98px;
-  left: 58.5px;
-  font-weight: 800;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
+	top: 7.98px;
+	left: 58.5px;
+	font-weight: 800;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
 }
 .booked11,
 .button22 {
-  left: 0;
-  height: 82.03px;
+	left: 0;
+	height: 82.03px;
 }
 .button22 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 0.02px;
-  width: 145px;
-  background-image: url(/public/blue2@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 0.02px;
+	width: 145px;
+	background-image: url(/public/blue2@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .booked11 {
-  top: 0;
+	top: 0;
 }
 .booked11,
 .button23,
 .div44,
 .frame1 {
-  position: absolute;
-  width: 145px;
+	position: absolute;
+	width: 145px;
 }
 .frame1 {
-  top: -0.02px;
-  left: 0;
-  height: 82.05px;
-  overflow: hidden;
-  font-size: 64px;
-  color: #ff2002;
+	top: -0.02px;
+	left: 0;
+	height: 82.05px;
+	overflow: hidden;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button23,
 .div44 {
-  top: 669.02px;
-  left: 12.5px;
-  height: 82.03px;
+	top: 669.02px;
+	left: 12.5px;
+	height: 82.03px;
 }
 .button23 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 146.25px;
-  background-image: url(/public/blue4@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 146.25px;
+	background-image: url(/public/blue4@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div47 {
-  position: absolute;
-  top: 6px;
-  left: 59px;
-  font-weight: 800;
+	position: absolute;
+	top: 6px;
+	left: 59px;
+	font-weight: 800;
 }
 .booked12,
 .button24,
 .div46 {
-  position: absolute;
-  height: 82.03px;
+	position: absolute;
+	height: 82.03px;
 }
 .booked12 {
-  top: 0;
-  left: 1px;
-  width: 145px;
-  font-size: 64px;
-  color: #ff2002;
+	top: 0;
+	left: 1px;
+	width: 145px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button24,
 .div46 {
-  top: 831px;
-  left: 360px;
-  width: 146.25px;
+	top: 831px;
+	left: 360px;
+	width: 146.25px;
 }
 .button24 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 145px;
-  background-image: url(/public/blue6@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 145px;
+	background-image: url(/public/blue6@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div49 {
-  position: absolute;
-  top: 7px;
-  left: 44px;
-  font-weight: 800;
+	position: absolute;
+	top: 7px;
+	left: 44px;
+	font-weight: 800;
 }
 .booked13,
 .button25,
 .div48 {
-  position: absolute;
-  width: 145px;
-  height: 82.03px;
+	position: absolute;
+	width: 145px;
+	height: 82.03px;
 }
 .booked13 {
-  top: -1px;
-  left: 0;
-  font-size: 64px;
-  color: #ff2002;
+	top: -1px;
+	left: 0;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button25,
 .div48 {
-  top: 831px;
-  left: 616px;
+	top: 831px;
+	left: 616px;
 }
 .button25 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/blue7@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/blue7@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div51 {
-  position: absolute;
-  top: 7.48px;
-  left: 44.75px;
-  font-weight: 800;
+	position: absolute;
+	top: 7.48px;
+	left: 44.75px;
+	font-weight: 800;
 }
 .booked14,
 .button26,
 .div50 {
-  position: absolute;
-  width: 145px;
-  height: 82.03px;
+	position: absolute;
+	width: 145px;
+	height: 82.03px;
 }
 .booked14 {
-  top: -1.02px;
-  left: 0.75px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -1.02px;
+	left: 0.75px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button26,
 .div50 {
-  top: 669.02px;
-  left: 776.25px;
+	top: 669.02px;
+	left: 776.25px;
 }
 .button26 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/blue8@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/blue8@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div53 {
-  position: absolute;
-  top: 7.99px;
-  left: 44.25px;
-  font-weight: 800;
+	position: absolute;
+	top: 7.99px;
+	left: 44.25px;
+	font-weight: 800;
 }
 .booked15,
 .button27,
 .div52 {
-  position: absolute;
-  width: 145px;
-  height: 82.03px;
+	position: absolute;
+	width: 145px;
+	height: 82.03px;
 }
 .booked15 {
-  top: -0.51px;
-  left: 0.75px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -0.51px;
+	left: 0.75px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button27,
 .div52 {
-  top: 830.51px;
-  left: 936.25px;
+	top: 830.51px;
+	left: 936.25px;
 }
 .button27 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  background-image: url(/public/blue9@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	background-image: url(/public/blue9@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div55 {
-  position: absolute;
-  top: 7.99px;
-  left: 44.5px;
-  font-weight: 800;
+	position: absolute;
+	top: 7.99px;
+	left: 44.5px;
+	font-weight: 800;
 }
 .booked16,
 .button28,
 .div54 {
-  position: absolute;
-  width: 145px;
-  height: 82.03px;
+	position: absolute;
+	width: 145px;
+	height: 82.03px;
 }
 .booked16 {
-  top: 0.49px;
-  left: 1px;
-  font-size: 64px;
-  color: #ff2002;
+	top: 0.49px;
+	left: 1px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .button28,
 .div54 {
-  top: 830.51px;
-  left: 1095px;
+	top: 830.51px;
+	left: 1095px;
 }
 .button28 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 146.25px;
-  background-image: url(/public/blue5@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 146.25px;
+	background-image: url(/public/blue5@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .div57 {
-  position: absolute;
-  top: 7.98px;
-  left: 45px;
-  font-weight: 800;
+	position: absolute;
+	top: 7.98px;
+	left: 45px;
+	font-weight: 800;
 }
 .booked17 {
-  top: -0.02px;
-  left: 1px;
-  width: 145px;
-  height: 82.03px;
-  font-size: 64px;
-  color: #ff2002;
+	top: -0.02px;
+	left: 1px;
+	width: 145px;
+	height: 82.03px;
+	font-size: 64px;
+	color: #ff2002;
 }
 .booked17,
 .div56,
 .div59 {
-  position: absolute;
+	position: absolute;
 }
 .div56 {
-  top: 669.02px;
-  left: 520px;
-  width: 146.25px;
-  height: 82.03px;
+	top: 669.02px;
+	left: 520px;
+	width: 146.25px;
+	height: 82.03px;
 }
 .div59 {
-  top: 7.48px;
-  left: 58.75px;
-  font-weight: 800;
+	top: 7.48px;
+	left: 58.75px;
+	font-weight: 800;
 }
 .div58,
 .statsChild {
-  position: absolute;
-  top: 669.02px;
-  left: 266.25px;
-  width: 145px;
-  height: 82.03px;
+	position: absolute;
+	top: 669.02px;
+	left: 266.25px;
+	width: 145px;
+	height: 82.03px;
 }
 .statsChild {
-  top: 16px;
-  left: 219px;
-  width: 90.52px;
-  height: 2.13px;
+	top: 16px;
+	left: 219px;
+	width: 90.52px;
+	height: 2.13px;
 }
 .due,
 .statsItem {
-  position: absolute;
-  top: 0;
-  left: 172px;
+	position: absolute;
+	top: 0;
+	left: 172px;
 }
 .statsItem {
-  top: 16px;
-  left: 48.5px;
-  width: 90.52px;
-  height: 2.13px;
+	top: 16px;
+	left: 48.5px;
+	width: 90.52px;
+	height: 2.13px;
 }
 .paid {
-  top: 0;
-  left: 0;
+	top: 0;
+	left: 0;
 }
 .book31,
 .paid,
 .stats {
-  position: absolute;
+	position: absolute;
 }
 .stats {
-  top: 634px;
-  left: 24px;
-  width: 309.51px;
-  height: 22px;
-  text-align: left;
-  font-size: 16px;
+	top: 634px;
+	left: 24px;
+	width: 309.51px;
+	height: 22px;
+	text-align: left;
+	font-size: 16px;
 }
 .book31 {
-  height: 116%;
-  width: 104.44%;
-  top: -8%;
-  right: -2.22%;
-  bottom: -8%;
-  left: -2.22%;
+	height: 116%;
+	width: 104.44%;
+	top: -8%;
+	right: -2.22%;
+	bottom: -8%;
+	left: -2.22%;
 }
 .book3,
 .book32,
 .book34,
 .book36,
 .book38 {
-  position: absolute;
-  top: 0;
-  left: 1px;
-  width: 90px;
-  height: 25px;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 90px;
+	height: 25px;
 }
 .book32,
 .book34,
 .book36,
 .book38 {
-  top: 163px;
-  left: 0;
+	top: 163px;
+	left: 0;
 }
 .book34,
 .book36,
 .book38 {
-  left: 108px;
+	left: 108px;
 }
 .book36,
 .book38 {
-  top: 118px;
+	top: 118px;
 }
 .book38 {
-  left: 0;
+	left: 0;
 }
 .book310,
 .book312,
 .book314,
 .book316,
 .buttons {
-  position: absolute;
-  top: 232px;
-  width: 90px;
-  height: 25px;
+	position: absolute;
+	top: 232px;
+	width: 90px;
+	height: 25px;
 }
 .book310 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  left: 0;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	left: 0;
 }
 .book312,
 .book314,
 .book316,
 .buttons {
-  left: 108px;
+	left: 108px;
 }
 .book314,
 .book316,
 .buttons {
-  top: 45px;
-  left: 54px;
+	top: 45px;
+	left: 54px;
 }
 .book316,
 .buttons {
-  top: 0;
-  left: 107px;
+	top: 0;
+	left: 107px;
 }
 .buttons {
-  top: 230px;
-  left: 363px;
-  width: 198px;
-  height: 257px;
+	top: 230px;
+	left: 363px;
+	width: 198px;
+	height: 257px;
 }
 .parent {
-  position: relative;
-  background-color: #d9d9d9;
-  width: 100%;
-  height: 920px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
+	position: relative;
+	background-color: #d9d9d9;
+	width: 100%;
+	height: 920px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
 }
 
 .booked {
-  background-color: #454545;
-  mix-blend-mode: color;
-  top: 0;
-  left: 0;
+	background-color: #454545;
+	mix-blend-mode: color;
+	top: 0;
+	left: 0;
 }
 
 .t1 {
-  position: absolute;
-  top: 763.86px;
-  left: 12.5px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-family: "Open Sans";
+	position: absolute;
+	top: 763.86px;
+	left: 12.5px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-family: 'Open Sans';
 }
 .allOn1 {
-  position: relative;
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 600;
-  font-family: "Open Sans";
-  color: #fff;
-  text-align: center;
+	position: relative;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 600;
+	font-family: 'Open Sans';
+	color: #fff;
+	text-align: center;
 }
 .allOnWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 .allOn,
 .allOnParent {
-  cursor: pointer;
-  border: 0;
-  display: flex;
-  flex-direction: row;
+	cursor: pointer;
+	border: 0;
+	display: flex;
+	flex-direction: row;
 }
 .allOn {
-  padding: 8px 27px;
-  background-color: #0034d1;
-  border-radius: 16px;
-  align-items: center;
-  justify-content: center;
-  width: 90px;
+	padding: 8px 27px;
+	background-color: #0034d1;
+	border-radius: 16px;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
 }
 .allOnParent {
-  padding: 0;
-  background-color: transparent;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 27px;
+	padding: 0;
+	background-color: transparent;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 27px;
 }
 .frameParent,
 .settings {
-  align-items: center;
-  justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 .settings {
-  cursor: pointer;
-  border: 0;
-  padding: 8px 27px;
-  background-color: #0034d1;
-  border-radius: 16px;
-  width: 95px;
-  flex-direction: row;
-  box-sizing: border-box;
+	cursor: pointer;
+	border: 0;
+	padding: 8px 27px;
+	background-color: #0034d1;
+	border-radius: 16px;
+	width: 95px;
+	flex-direction: row;
+	box-sizing: border-box;
 }
 .frameParent {
-  position: relative;
-  top: 204px;
-  left: 355px;
-  width: 5px;
-  height: 80px;
-  flex-direction: column;
-  gap: 21px;
+	position: relative;
+	top: 204px;
+	left: 355px;
+	width: 5px;
+	height: 80px;
+	flex-direction: column;
+	gap: 21px;
 }
 .t3 {
-  position: absolute;
-  top: 830.51px;
-  left: 107.5px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
+	position: absolute;
+	top: 830.51px;
+	left: 107.5px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
 }
 .t5 {
-  position: absolute;
-  top: 764px;
-  left: 266px;
-  width: 80px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
+	position: absolute;
+	top: 764px;
+	left: 266px;
+	width: 80px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
 }
 .t7 {
-  top: 831px;
-  left: 360px;
-  width: 146.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 831px;
+	left: 360px;
+	width: 146.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t9 {
-  top: 764px;
-  left: 520px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 764px;
+	left: 520px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t11 {
-  top: 831px;
-  left: 616px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 831px;
+	left: 616px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t13 {
-  top: 764px;
-  left: 776px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 764px;
+	left: 776px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t2 {
-  top: 669.02px;
-  left: 12.5px;
-  height: 82.03px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 12.5px;
+	height: 82.03px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t4 {
-  top: 669.02px;
-  left: 171.25px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 171.25px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t6 { 
-  top: 669.02px;
-  left: 266.25px;
-  width: 145px;
-  height: 82.03px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t6 {
+	top: 669.02px;
+	left: 266.25px;
+	width: 145px;
+	height: 82.03px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t8 {
-  top: 669.02px;
-  left: 425px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 425px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t10 {
-  top: 669.02px;
-  left: 520px;
-  width: 146.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 520px;
+	width: 146.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t12 {
-  top: 669.02px;
-  left: 680px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 680px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t14 { 
-  top: 669.02px;
-  left: 776.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t14 {
+	top: 669.02px;
+	left: 776.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t16 { 
-  top: 830.51px;
-  left: 936.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t16 {
+	top: 830.51px;
+	left: 936.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t17 { 
-  top: 830.51px;
-  left: 1095px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t17 {
+	top: 830.51px;
+	left: 1095px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t18 {
-  top: 744.5px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.47px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 744.5px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.47px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t19 { 
-  top: 743.36px;
-  left: 1115px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t19 {
+	top: 743.36px;
+	left: 1115px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t20 {
-  top: 657.49px;
-  left: 935px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 657.49px;
+	left: 935px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t21 {
-  top: 656.2px;
-  left: 1115px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 656.2px;
+	left: 1115px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t22 {
-  top: 515.22px;
-  left: 934.25px;
-  width: 72.25px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 515.22px;
+	left: 934.25px;
+	width: 72.25px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t23 {
-  top: 515.22px;
-  left: 1167.5px;
-  width: 72.5px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 64px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 515.22px;
+	left: 1167.5px;
+	width: 72.5px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 64px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t25 { 
-  top: 374px;
-  left: 1167px;
-  width: 72.5px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+.t25 {
+	top: 374px;
+	left: 1167px;
+	width: 72.5px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t24 {
-  top: 374.24px;
-  left: 934.25px;
-  width: 72.5px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 374.24px;
+	left: 934.25px;
+	width: 72.5px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t26 {
-  top: 287px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.43px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 287px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.43px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t27 {
-  top: 287px;
-  left: 1115px;
-  width: 125px;
-  height: 74.43px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 287px;
+	left: 1115px;
+	width: 125px;
+	height: 74.43px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t28 {
-  top: 199.94px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 199.94px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t29 {
-  top: 199.94px;
-  left: 1115px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 199.94px;
+	left: 1115px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t30 {
-  top: 112.79px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 112.79px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t31 {
-  top: 112.79px;
-  left: 1115px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 112.79px;
+	left: 1115px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 
 .divTable {
-  display: flex;
-  position: absolute;
-  top: 75px;
-  font-style: bold;
-  font-family: 'Open Sans';
-  color: black;
-  background-color:aliceblue !important;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+	display: flex;
+	position: absolute;
+	top: 75px;
+	font-style: bold;
+	font-family: 'Open Sans';
+	color: black;
+	background-color: aliceblue !important;
+	flex-direction: column;
+	justify-content: flex-end;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .tableContainer {
-  overflow: hidden;
+	overflow: hidden;
 }
 .table {
-  font-size: 18px;
-  font-style: bold;
-  font-family: 'Open Sans';
-  overflow: hidden;
+	font-size: 18px;
+	font-style: bold;
+	font-family: 'Open Sans';
+	overflow: hidden;
 }
 .thead {
-  background-color: #212529;
-  color: #fff;
-  width: 100%;
+	background-color: #212529;
+	color: #fff;
+	width: 100%;
 }
 .div2 {
-  display: flex;
-  position: absolute;
-  top: 75px;
-  left: 575px;
-  font-style: bold;
-  font-family: 'Open Sans';
-  color: black;
-  background-color:aliceblue !important;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+	display: flex;
+	position: absolute;
+	top: 75px;
+	left: 575px;
+	font-style: bold;
+	font-family: 'Open Sans';
+	color: black;
+	background-color: aliceblue !important;
+	flex-direction: column;
+	justify-content: flex-end;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-
-
-
 .divtable {
-  display: flex;
-  position: absolute;
-  top: 75px;
-  font-style: bold;
-  font-family: 'Open Sans';
-  color: black;
-  background-color:aliceblue !important;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+	display: flex;
+	position: absolute;
+	top: 75px;
+	font-style: bold;
+	font-family: 'Open Sans';
+	color: black;
+	background-color: aliceblue !important;
+	flex-direction: column;
+	justify-content: flex-end;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .tableContainer {
-  overflow: hidden;
+	overflow: hidden;
 }
 .table {
-  font-size: 18px;
-  font-style: bold;
-  font-family: 'Open Sans';
-  overflow: hidden;
+	font-size: 18px;
+	font-style: bold;
+	font-family: 'Open Sans';
+	overflow: hidden;
 }
 .thead {
-  background-color: #212529;
-  color: #fff;
-  width: 100%;
+	background-color: #212529;
+	color: #fff;
+	width: 100%;
 }
 .div200 {
-  display: flex;
-  position: absolute;
-  top: 75px;
-  left: 635px;
-  font-style: bold;
-  font-family: 'Open Sans';
-  color: black;
-  background-color:aliceblue !important;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+	display: flex;
+	position: absolute;
+	top: 75px;
+	left: 635px;
+	font-style: bold;
+	font-family: 'Open Sans';
+	color: black;
+	background-color: aliceblue !important;
+	flex-direction: column;
+	justify-content: flex-end;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.stats {
+	top: 634px;
+	left: 24px;
+	width: 309.51px;
+	height: 22px;
+	text-align: left;
+	font-size: 16px;
 }
 
-
-
 .iconLeft {
-  position: relative;
-  width: 8px;
-  height: 8px;
-  display: none;
+	position: relative;
+	width: 8px;
+	height: 8px;
+	display: none;
 }
 .primaryText,
 .secondaryText {
-  align-self: stretch;
-  position: relative;
-  line-height: 150%;
+	align-self: stretch;
+	position: relative;
+	line-height: 150%;
 }
 .primaryText {
-  font-weight: 600;
+	font-weight: 600;
 }
 .secondaryText {
-  font-size: 10px;
-  color: #272833;
-  text-align: left;
-  display: none;
-  opacity: 0.7;
+	font-size: 10px;
+	color: #272833;
+	text-align: left;
+	display: none;
+	opacity: 0.7;
 }
 .text {
-  width: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+	width: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .rowCell {
-  align-self: stretch;
-  overflow: hidden;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
+	align-self: stretch;
+	overflow: hidden;
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
 }
 .cell,
 .rowCell,
 .text1 {
-  display: flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 }
 .cell {
-  height: 30px;
-  flex-direction: row;
-  align-items: flex-start;
+	height: 30px;
+	flex-direction: row;
+	align-items: flex-start;
 }
 .text1 {
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
 }
 .rowCell1 {
-  align-self: stretch;
-  width: 80px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: 0 6px;
-  box-sizing: border-box;
-  justify-content: space-between;
+	align-self: stretch;
+	width: 80px;
+	overflow: hidden;
+	flex-shrink: 0;
+	padding: 0 6px;
+	box-sizing: border-box;
+	justify-content: space-between;
 }
 .cell2,
 .header,
 .rowCell1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 .cell2 {
-  height: 24px;
-  justify-content: center;
+	height: 24px;
+	justify-content: center;
 }
 .header {
-  align-self: stretch;
-  background-color: #000;
-  box-shadow: 0-0.5px 0#e7e7ed inset;
-  overflow: hidden;
-  justify-content: flex-start;
-  font-size: 20px;
-  color: #fff;
+	align-self: stretch;
+	background-color: #000;
+	box-shadow: 0-0.5px 0#e7e7ed inset;
+	overflow: hidden;
+	justify-content: flex-start;
+	font-size: 20px;
+	color: #fff;
 }
 .primaryText4,
 .secondaryText4 {
-  align-self: stretch;
-  position: relative;
-  line-height: 150%;
+	align-self: stretch;
+	position: relative;
+	line-height: 150%;
 }
 .secondaryText4 {
-  font-size: 12px;
-  display: none;
-  text-align: left;
-  opacity: 0.7;
+	font-size: 12px;
+	display: none;
+	text-align: left;
+	opacity: 0.7;
 }
 .cell4 {
-  height: 32px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+	height: 32px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .secondaryText5 {
-  align-self: stretch;
-  position: relative;
-  font-size: 10px;
-  line-height: 150%;
-  text-align: left;
-  display: none;
-  opacity: 0.7;
+	align-self: stretch;
+	position: relative;
+	font-size: 10px;
+	line-height: 150%;
+	text-align: left;
+	display: none;
+	opacity: 0.7;
 }
 .rowCell5 {
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  padding: 0 6px;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
+	align-self: stretch;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	padding: 0 6px;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
 }
 .text7 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .rowCell7,
 .rowMainRecomponentizeD {
-  align-self: stretch;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  flex-direction: row;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+	flex-direction: row;
 }
 .rowCell7 {
-  width: 80px;
-  overflow: hidden;
-  display: flex;
-  padding: 0 6px;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
+	width: 80px;
+	overflow: hidden;
+	display: flex;
+	padding: 0 6px;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
 }
 .rowMainRecomponentizeD {
-  border-top: 2px solid #000;
-  height: 32px;
+	border-top: 2px solid #000;
+	height: 32px;
 }
 .rowMainRecomponentizeD,
 .rowMainRecomponentizeD1,
 .table1 {
-  overflow: hidden;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+	overflow: hidden;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .rowMainRecomponentizeD1 {
-  align-self: stretch;
-  background-color: #d9d9d9;
-  border-top: 2px solid #000;
-  flex-direction: row;
+	align-self: stretch;
+	background-color: #d9d9d9;
+	border-top: 2px solid #000;
+	flex-direction: row;
 }
 .table1 {
-  position: absolute;
-  top: 75px;
-  left: 1px;
-  border-radius: 2px;
-  background-color: #fff;
-  border: 0.5px solid #e7e7ed;
-  flex-direction: column;
-  text-align: center;
-  font-size: 16px;
-  color: #272833;
-  font-family: "Source Sans Pro";
+	position: absolute;
+	top: 75px;
+	left: 1px;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 0.5px solid #e7e7ed;
+	flex-direction: column;
+	text-align: center;
+	font-size: 16px;
+	color: #272833;
+	font-family: 'Source Sans Pro';
 }
 
 .button,
 .divBH {
-  position: absolute;
+	position: absolute;
 }
 .divBH {
-  left: 30%;
-  cursor: pointer;
-  font-size: 48px;
-  font-weight: 800;
-  font-family: "Open Sans";
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
+	left: 30%;
+	cursor: pointer;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
 }
 .buttonBH {
-  cursor: pointer;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-weight: 800;
-  font-family: "Open Sans";
-  border: 0;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
-  padding: 0;
-  width: 145px;
-  height: 82.03px;
-  background-image: url(/public/blue2@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	border: 0;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
+	padding: 0;
+	width: 145px;
+	height: 82.03px;
+	background-image: url(/public/blue2@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .button,
 .divBV {
-  position: absolute;
+	position: absolute;
 }
 .divBV {
-  cursor: pointer;
-  text-align:center;
-  font-size: 48px;
-  font-weight: 800;
-  font-family: "Open Sans";
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
+	cursor: pointer;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
 }
 .buttonBV {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  font-family: "Open Sans";
-  text-align: center;
-  font-size: 48px;
-  font-weight: 800;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 81.25px;
-  height: 148.67px;
-  background-image: url(/public/bluevert1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 48px;
+	font-weight: 800;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	width: 81.25px;
+	height: 148.67px;
+	background-image: url(/public/bluevert1@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .divGH {
-  position: absolute;
+	position: absolute;
 }
 .buttonGH {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 0;
-  font-weight: 800;
-  font-family: "Open Sans";
-  text-align: center;
-  font-size: 48px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
-  left: 0;
-  width: 143px;
-  height: 84px;
-  background-image: url(/public/green3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	top: 0;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 48px;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
+	left: 0;
+	width: 143px;
+	height: 84px;
+	background-image: url(/public/green3@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .divGH {
-  left: -18px;
-  top: -30px;
-  margin: 10px;
-  padding: 10px;
-  font-weight: 800;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
-  font-family: "Open Sans";
-  color: #000;
-  cursor: pointer;
-  font-size: 48px;
+	left: -18px;
+	top: -30px;
+	margin: 10px;
+	padding: 10px;
+	font-weight: 800;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
+	font-family: 'Open Sans';
+	color: #000;
+	cursor: pointer;
+	font-size: 48px;
 }
 
 .button,
 .divGV {
-  position: absolute;
+	position: absolute;
 }
 .buttonGV {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
-  font-size: 48px;
-  font-weight: 800;
-  font-family: "Open Sans";
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
-  top: 0;
-  left: 0;
-  width: 84.25px;
-  height: 147.67px;
-  background-image: url(/public/greenvert1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
+	top: 0;
+	left: 0;
+	width: 84.25px;
+	height: 147.67px;
+	background-image: url(/public/greenvert1@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 .divGV {
-  bottom: 5px;
-  left: 4px;
-  cursor: pointer;
-  font-size: 48px;
-  font-weight: 800;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
-  font-family: "Open Sans";
-  color: #000;
+	bottom: 5px;
+	left: 4px;
+	cursor: pointer;
+	font-size: 48px;
+	font-weight: 800;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	-webkit-text-stroke: 1px #000;
+	font-family: 'Open Sans';
+	color: #000;
 }
 
 .parent {
-  position: absolute;
-  background-color: #d9d9d9;
-  width: 100%;
-  height: 920px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
+	position: absolute;
+	background-color: #d9d9d9;
+	width: 100%;
+	height: 920px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
 }
 .t1 {
-  position: absolute;
-  top: 763.86px;
-  left: 12.5px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-family: "Open Sans";
+	position: absolute;
+	top: 763.86px;
+	left: 12.5px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-family: 'Open Sans';
 }
 .t2 {
-  top: 669.02px;
-  left: 12.5px;
-  height: 82.03px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 12.5px;
+	height: 82.03px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t4 {
-  top: 669.02px;
-  left: 171.25px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 171.25px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t3 {
-  position: absolute;
-  top: 830.51px;
-  left: 107.5px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
+	position: absolute;
+	top: 830.51px;
+	left: 107.5px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
 }
 .t5 {
-  position: absolute;
-  top: 764px;
-  left: 266px;
-  width: 80px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
+	position: absolute;
+	top: 764px;
+	left: 266px;
+	width: 80px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
 }
 .t7 {
-  top: 831px;
-  left: 360px;
-  width: 146.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 831px;
+	left: 360px;
+	width: 146.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t9 {
-  top: 764px;
-  left: 520px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 764px;
+	left: 520px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t11 {
-  top: 831px;
-  left: 616px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 831px;
+	left: 616px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t13 {
-  top: 764px;
-  left: 776px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 764px;
+	left: 776px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 
-.t6 { 
-  top: 669.02px;
-  left: 222.5px;
-  width: 145px;
-  height: 82.03px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t6 {
+	top: 669.02px;
+	left: 222.5px;
+	width: 145px;
+	height: 82.03px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t8 {
-  top: 669.02px;
-  left: 425px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 425px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t10 {
-  top: 669.02px;
-  left: 477px;
-  width: 146.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 477px;
+	width: 146.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t12 {
-  top: 669.02px;
-  left: 680px;
-  width: 81.25px;
-  height: 148.67px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 669.02px;
+	left: 680px;
+	width: 81.25px;
+	height: 148.67px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t14 { 
-  top: 669.02px;
-  left: 776.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t14 {
+	top: 669.02px;
+	left: 776.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t16 { 
-  top: 830.51px;
-  left: 936.25px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t16 {
+	top: 830.51px;
+	left: 936.25px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t17 { 
-  top: 830.51px;
-  left: 1095px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t17 {
+	top: 830.51px;
+	left: 1095px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t18 {
-  top: 750.75px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.47px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 750.75px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.47px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t19 { 
-  top: 750.36px;
-  left: 1095px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+.t19 {
+	top: 750.36px;
+	left: 1095px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t20 {
-  top: 661.49px;
-  left: 936px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 661.49px;
+	left: 936px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t21 {
-  top: 661.2px;
-  left: 1095px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 661.2px;
+	left: 1095px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t22 {
-  top: 521.22px;
-  left: 934.25px;
-  width: 72.25px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 521.22px;
+	left: 934.25px;
+	width: 72.25px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t23 {
-  top: 521.22px;
-  left: 1151.5px;
-  width: 72.5px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 64px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 521.22px;
+	left: 1151.5px;
+	width: 72.5px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 64px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
-.t25 { 
-  top: 367.24px;
-  left: 1151.5px;
-  width: 72.5px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+.t25 {
+	top: 367.24px;
+	left: 1151.5px;
+	width: 72.5px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t24 {
-  top: 367.24px;
-  left: 934.25px;
-  width: 72.5px;
-  height: 128.16px;
-  text-align: center;
-  font-size: 48px;
-  color: #ff2002;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 367.24px;
+	left: 934.25px;
+	width: 72.5px;
+	height: 128.16px;
+	text-align: center;
+	font-size: 48px;
+	color: #ff2002;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t26 {
-  top: 263px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.43px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 263px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.43px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t27 {
-  top: 263px;
-  left: 1095px;
-  width: 125px;
-  height: 74.43px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 263px;
+	left: 1095px;
+	width: 125px;
+	height: 74.43px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t28 {
-  top: 173.94px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 173.94px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t29 {
-  top: 173.94px;
-  left: 1095px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 173.94px;
+	left: 1095px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t30 {
-  top: 84.79px;
-  left: 936.25px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 84.79px;
+	left: 936.25px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
 }
 .t31 {
-  top: 84.79px;
-  left: 1095px;
-  width: 125px;
-  height: 74.34px;
-  text-align: center;
-  font-size: 48px;
-  color: #000;
-  font-family: "Open Sans";
-  position: absolute;
+	top: 84.79px;
+	left: 1095px;
+	width: 125px;
+	height: 74.34px;
+	text-align: center;
+	font-size: 48px;
+	color: #000;
+	font-family: 'Open Sans';
+	position: absolute;
+}
+.statsChild {
+	position: absolute;
+	top: 669.02px;
+	left: 266.25px;
+	width: 145px;
+	height: 82.03px;
+}
+.statsChild {
+	top: 16px;
+	left: 219px;
+	width: 90.52px;
+	height: 2.13px;
+}
+.due,
+.statsItem {
+	position: absolute;
+	top: 0;
+	left: 172px;
+}
+.statsItem {
+	top: 16px;
+	left: 48.5px;
+	width: 200px;
+	height: 2.13px;
+}
+
+.due {
+	position: absolute;
+	font-size: 1.2rem;
+	top: -7px;
+	font-weight: 900;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.05rem;
+	color: #000000;
+	margin-left: 100px;
+	left: 95px;
+}
+.paid {
+	font-size: 1.2rem;
+	top: -7px;
+	font-weight: 800;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 0.05rem;
+	color: #000000;
+	left: 0;
+}
+.book31,
+.paid,
+.stats {
+	position: absolute;
+}
+.stats {
+	top: 64px;
+	left: 24px;
+	width: 309.51px;
+	height: 22px;
+	text-align: left;
+	font-size: 16px;
 }
