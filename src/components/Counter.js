@@ -1,37 +1,52 @@
 import React,{ useState,useEffect } from 'react'
 import { useGlobalContext } from './Context'
 
-const Counter = ({ secs,paid,prepaid,id,status,setStatus }) => {
+const Counter = ({ secs,paid,prepaid,id,booked,disabled,reserved,setStatus }) => {
 	const { hourlyRate } = useGlobalContext()
-	const [seconds,setSeconds] = useState(status.counter.seconds)
-	const [amount,setAmount] = useState(status.counter.paid)
-	const [prepaidAmount,setPrepaidAmount] = useState(status.counter.prepaid)
+	const [seconds,setSeconds] = useState(secs)
+	const [amount,setAmount] = useState(paid)
+	const [prepaidAmount,setPrepaidAmount] = useState(prepaid)
+
 
 	useEffect(() => {
 		let interval
-
-		if (status.booked) {
+		if (booked) {
 			interval = setInterval(() => {
-				if (prepaidAmount > 0) {
-					setSeconds((prevSeconds) => {
-						if (prevSeconds === 0) {
-							setPrepaidAmount(0) // Reset prepaidAmount to 0 when seconds reach 0
-							return 0 // Reset seconds to 0
+				setStatus((prevStatus) => {
+					const updatedStatus = prevStatus.map((statusItem) => {
+						if (statusItem.id === id) {
+							if (statusItem.prepaidAmount > 0) {
+								if (statusItem.seconds === 0) {
+									return {
+										...statusItem,
+										prepaidAmount: 0,
+										seconds: 0,
+									}
+								} else {
+									return {
+										...statusItem,
+										seconds: statusItem.seconds - 1,
+										amount: statusItem.amount - hourlyRate / 3600,
+									}
+								}
+							} else {
+								return {
+									...statusItem,
+									seconds: statusItem.seconds + 1,
+									amount: statusItem.amount + hourlyRate / 3600,
+								}
+							}
 						}
-						return prevSeconds - 1
+						return statusItem
 					})
-					setAmount((prevAmount) => prevAmount - hourlyRate / 3600)
-				} else {
-					setSeconds((prevSeconds) => prevSeconds + 1)
-					setAmount((prevAmount) => prevAmount + hourlyRate / 3600)
-				}
+					return updatedStatus
+				})
 			},1000)
 		} else {
 			clearInterval(interval)
 		}
 		return () => clearInterval(interval)
-	},[status.booked,prepaidAmount,hourlyRate])
-
+	},[booked,id,hourlyRate,setStatus])
 
 	const formatTime = (time) => {
 		const hours = Math.floor(time / 3600)

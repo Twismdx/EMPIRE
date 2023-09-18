@@ -7,10 +7,9 @@ import TableContainerComponent from '../components/TableContainerComponent'
 import PortalPopup from '../components/PortalPopup'
 import ButtonModal from '../components/buttonModal/ButtonModal'
 import Modal from '../components/Modal'
-import { UseFetch } from '../components/UseFetch'
 
 const FrameComponent1 = (props) => {
-	const { selected,setSelected,onChange,total,setTotal,outstanding,setOutstanding } = useGlobalContext()
+	const { selected,setSelected,onChange,total,setTotal,outstanding,setOutstanding,status,setStatus } = useGlobalContext()
 	const [activeId,setActiveId] = useState(null)
 	const [isFramePopupOpen,setFramePopupOpen] = useState(false)
 	const [isButtonModalOpen,setButtonModalOpen] = useState(false)
@@ -33,312 +32,6 @@ const FrameComponent1 = (props) => {
 		setFramePopupOpen(false)
 	},[])
 
-	const [status,setStatus] = useState(() => {
-		const initialStatus = {
-			1: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			2: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 20,
-					paid: 0,
-				}
-			},
-			3: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			4: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			5: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			6: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			7: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			8: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			9: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			10: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			11: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			12: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			13: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			14: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			16: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			17: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			18: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			19: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			20: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			21: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			22: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			23: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			24: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			25: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			26: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 50,
-				}
-			},
-			27: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 100,
-				}
-			},
-			28: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			29: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			30: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-			31: {
-				booked: false,
-				reserved: false,
-				disabled: false,
-				counter: {
-					seconds: 0,
-					prepaid: 0,
-					paid: 0,
-				}
-			},
-		}
-		return initialStatus
-	})
-
 	const handleFlash = async (activeId) => {
 		try {
 			const response = await fetch(`https://10.1.0.100:8000/${activeId}/flash`,{
@@ -355,73 +48,78 @@ const FrameComponent1 = (props) => {
 
 	const handleBook = (id) => {
 		setStatus((prevStatus) => {
-			if (prevStatus.hasOwnProperty(id)) {
-				return {
-					...prevStatus,
-					[id]: {
-						...prevStatus[id],
-						booked: !prevStatus[id].booked
+			const updatedStatus = prevStatus.map((timer) => {
+				if (timer.id === id) {
+					return {
+						...timer,
+						booked: !timer.booked
 					}
 				}
-			}
-			return prevStatus
+				return timer
+			})
+			return updatedStatus
 		})
 	}
 
 	const handleReserve = (id) => {
 		setStatus((prevStatus) => {
-			if (prevStatus.hasOwnProperty(id)) {
-				return {
-					...prevStatus,
-					[id]: {
-						...prevStatus[id],
-						reserved: !prevStatus[id].reserved
+			const updatedStatus = prevStatus.map((timer) => {
+				if (timer.id === id) {
+					return {
+						...timer,
+						reserved: !timer.reserved
 					}
 				}
-			}
-			return prevStatus
+				return timer
+			})
+			return updatedStatus
 		})
 	}
+
 	const handleDisable = (id) => {
 		setStatus((prevStatus) => {
-			if (prevStatus.hasOwnProperty(id)) {
-				return {
-					...prevStatus,
-					[id]: {
-						...prevStatus[id],
-						disabled: !prevStatus[id].disabled
+			const updatedStatus = prevStatus.map((timer) => {
+				if (timer.id === id) {
+					return {
+						...timer,
+						disabled: !timer.disabled
 					}
 				}
-			}
-			return prevStatus
+				return timer
+			})
+			return updatedStatus
 		})
 	}
 
-	function getTotalPaid(status) {
+	function getTotalPaid() {
 		let total = 0
+		const items = Object.values(localStorage) // Retrieve all items from localStorage
 
-		Object.values(status).forEach(counter => {
-			total += parseInt(counter.counter.prepaid)
-			total += parseInt(counter.counter.paid)
+		items.forEach(item => {
+			const { prepaidAmount,amount } = JSON.parse(item)
+			total += parseInt(prepaidAmount)
+			total += parseInt(amount)
 		})
 		return total.toFixed(2)
 	}
 
-	function getTotalOutstanding(status) {
+	function getTotalOutstanding() {
 		let total = 0
+		const items = Object.values(localStorage)
 
-		Object.values(status).forEach(counter => {
-			total += parseInt(counter.counter.paid)
+		items.forEach(item => {
+			const { amount } = JSON.parse(item)
+			total += parseInt(amount)
 		})
 		return total.toFixed(2)
 	}
 
 	useEffect(() => {
-		const outstanding = getTotalOutstanding(status)
-		setOutstanding(outstanding)
-		const paid = getTotalPaid(status)
-		setTotal(paid)
-	},[status])
+		const owing = getTotalOutstanding()
+		setOutstanding(owing)
+		const prepaid = getTotalPaid()
+		setTotal(prepaid)
+	},[outstanding,total])
 
 	return (
 		<>
@@ -662,8 +360,6 @@ const FrameComponent1 = (props) => {
 			>
 			</div>
 			<TableContainerComponent
-				status={status}
-				setStatus={setStatus}
 				id={activeId}
 			/>
 			{isFramePopupOpen && (
@@ -688,7 +384,6 @@ const FrameComponent1 = (props) => {
 						handleFlash={handleFlash}
 						id={activeId}
 						status={status}
-
 					/>
 				</PortalPopup>
 			)}

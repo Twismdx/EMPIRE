@@ -17,8 +17,6 @@ const TableContainerComponent = ({
 	handleBook,
 	handleClose,
 	handleFlash,
-	status,
-	setStatus,
 	id,
 }) => {
 	const {
@@ -26,18 +24,19 @@ const TableContainerComponent = ({
 		dayRate,
 		nightRate,
 		satRate,
-		timers,
 		total,
 		setTotal,
 		outstanding,
 		setOutstanding,
+		status,
+		setStatus,
 	} = useGlobalContext()
 
-	const index1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16]
-	const index2 = [17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+	// const index1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16]
+	// const index2 = [17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
 
-	const slice2 = timers.slice(15,30)
-	const slice1 = timers.slice(0,15)
+	const index1 = status.slice(0,14)
+	const index2 = status.slice(16)
 
 	const getRateLabel = (rate) => {
 		if (hourlyRate === dayRate) {
@@ -108,22 +107,27 @@ const TableContainerComponent = ({
 							</TableCell>
 						</TableHeadStyled>
 						<TableBody>
-							{index2.map((index) => (
+							{index2.map((item) => (
 								<TableRowStyled
-									key={`Timer-${index}`}
+									key={`Timer-${item.id}`}
 									className={styles.tr}
 								>
 									<TableCell className={styles.td}>
-										Table&nbsp;{index}
+										Table&nbsp;{item.id}
 									</TableCell>
 									<TableCell className={styles.td}>
 										&nbsp;{getRateLabel(hourlyRate)}
 									</TableCell>
 									<TableCell className={styles.td}>
 										<Counter
-											key={index}
-											id={index}
-											status={status[index]}
+											key={item.id}
+											id={item.id}
+											booked={item.booked}
+											reserved={item.reserved}
+											disabled={item.disabled}
+											secs={item.seconds}
+											paid={item.amount}
+											prepaid={item.prepaidAmount}
 											setStatus={setStatus}
 										/>
 									</TableCell>
@@ -147,23 +151,29 @@ const TableContainerComponent = ({
 							</TableCell>
 						</TableHeadStyled>
 						<TableBody>
-							{index1.map((index) => (
+							{index1.map((item) => (
 								<TableRowStyled
 									className={styles.tr}
-									key={`Timer-${index}`}
+									key={`Timer-${item.id}`}
 								>
 									<TableCell className={styles.td}>
-										Table&nbsp;{index}
+										Table&nbsp;{item.id}
 									</TableCell>
 									<TableCell className={styles.td}>
 										&nbsp; {getRateLabel(hourlyRate)}
 									</TableCell>
 									<TableCell className={styles.td}>
 										<Counter
-											key={index}
-											id={index}
-											status={status[index]}
+											key={item.id}
+											id={item.id}
+											booked={item.booked}
+											reserved={item.reserved}
+											disabled={item.disabled}
+											secs={item.seconds}
+											paid={item.amount}
+											prepaid={item.prepaidAmount}
 											setStatus={setStatus}
+
 										/>
 									</TableCell>
 								</TableRowStyled>

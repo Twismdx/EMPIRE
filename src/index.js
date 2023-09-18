@@ -3,8 +3,6 @@ import { createRoot } from 'react-dom/client'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { ContextProvider } from './components/Context'
-import { store } from './utils/store'
-import { Provider } from 'react-redux'
 import {
 	CssBaseline,
 	ThemeProvider,
@@ -20,16 +18,14 @@ const container = document.getElementById('root')
 const root = createRoot(container)
 
 root.render(
-	<Provider store={store}>
-		<ContextProvider>
-			<StyledEngineProvider injectFirst>
-				<ThemeProvider theme={muiTheme}>
-					<CssBaseline />
-					<App />
-				</ThemeProvider>
-			</StyledEngineProvider>
-		</ContextProvider>
-	</Provider>
+	<ContextProvider>
+		<StyledEngineProvider injectFirst>
+			<ThemeProvider theme={muiTheme}>
+				<CssBaseline />
+				<App />
+			</ThemeProvider>
+		</StyledEngineProvider>
+	</ContextProvider>
 )
 
 // If you want to start measuring performance in your app, pass a function

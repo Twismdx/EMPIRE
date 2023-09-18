@@ -20,38 +20,41 @@ const ContextProvider = ({ children }) => {
 		console.log(e.target.value)
 	}
 
-	const [timers,setTimers] = useState([
-		{ id: 1,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 2,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 3,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 4,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 5,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 6,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 7,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 8,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 9,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 10,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 11,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 12,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 13,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 14,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 16,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 17,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 18,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 19,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 20,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 21,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 22,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 23,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 24,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 25,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 26,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 27,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 28,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 29,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 30,secs: 0,paid: 0,prepaid: 0,start: false },
-		{ id: 31,secs: 0,paid: 0,prepaid: 0,start: false },
-	])
+	const [status,setStatus] = useState(() => {
+		const initialState = [
+			{ id: 1,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 2,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 3,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 4,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 5,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 6,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 7,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 8,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 9,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 10,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 11,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 12,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 13,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 14,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 16,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 17,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 18,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 19,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 20,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 21,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 22,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 23,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 24,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 25,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 26,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 27,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 28,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 29,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 30,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 31,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+		]
+		return initialState
+	})
 
 	useEffect(() => {
 		setTime(currentTime)
@@ -110,15 +113,15 @@ const ContextProvider = ({ children }) => {
 				setDay,
 				hourlyRate,
 				setHourlyRate,
-				timers,
-				setTimers,
 				selected,
 				setSelected,
 				onChange,
 				total,
 				setTotal,
 				outstanding,
-				setOutstanding
+				setOutstanding,
+				status,
+				setStatus
 			}}
 		>
 			{children}
