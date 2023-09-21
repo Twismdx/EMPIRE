@@ -1,147 +1,149 @@
 .settings {
-  position: relative;
-  line-height: 32px;
-  font-weight: 500;
+	position: relative;
+	line-height: 32px;
+	font-weight: 500;
 }
-.vuesaxoutlinecloseCircleIcon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+.closeCircleIcon {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
 }
 .iconsLight {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 24px;
-  height: 24px;
+	position: relative;
+	cursor: pointer;
+	border: 0;
+	background-image: url('/public/closeCircle.svg');
+	padding: 0;
+	background-color: transparent;
+	width: 24px;
+	height: 24px;
+	transform: scale(1.5);
 }
 .title {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 .dayRate {
-  position: relative;
-  text-decoration: underline;
-  line-height: 16px;
+	position: relative;
+	text-decoration: underline;
+	line-height: 16px;
 }
 .inputLight,
 .inputs,
 .inputs1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .inputs {
-  align-self: stretch;
-  height: 1px;
-  align-items: flex-start;
-  font-size: 20px;
-  color: #000;
+	align-self: stretch;
+	height: 1px;
+	align-items: flex-start;
+	font-size: 20px;
+	color: #000;
 }
 .inputLight,
 .inputs1 {
-  height: 35px;
-  align-items: center;
+	height: 35px;
+	align-items: center;
 }
 .inputLight {
-  border: 2px solid #dfdfe6;
-  font-family: Inter;
-  font-size: 14px;
-  background-color: #fcfcfd;
-  border-radius: 12px;
-  box-sizing: border-box;
-  width: 88px;
-  padding: 16px;
+	border: 2px solid #2b2b2b;
+	font-family: Inter;
+	font-size: 14px;
+	border-radius: 12px;
+	box-sizing: border-box;
+	width: 88px;
+	color: #000;
+	padding: 16px;
 }
 .inputs1 {
-  align-self: stretch;
+	align-self: stretch;
 }
 .button {
-  position: relative;
-  font-size: 16px;
-  line-height: 16px;
-  font-family: Inter;
-  color: #23262f;
-  text-align: left;
+	position: relative;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: Inter;
+	color: #23262f;
+	text-align: left;
 }
 .buttonLight {
-  cursor: pointer;
-  border: 0;
-  padding: 16px 0;
-  background-color: #f1f1f1;
-  border-radius: 50px;
-  width: 232px;
-  height: 56px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
+	cursor: pointer;
+	border: 0;
+	padding: 16px 0;
+	background-color: #f1f1f1;
+	border-radius: 50px;
+	width: 232px;
+	height: 56px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
 }
 .button1 {
-  position: relative;
-  font-size: 16px;
-  line-height: 16px;
-  font-family: Inter;
-  color: #fcfcfd;
-  text-align: left;
+	position: relative;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: Inter;
+	color: #fcfcfd;
+	text-align: left;
 }
 .buttonLight1,
 .buttons {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 .buttonLight1 {
-  cursor: pointer;
-  border: 0;
-  padding: 20px 0;
-  background-color: #3772ff;
-  border-radius: 50px;
-  width: 232px;
-  height: 56px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
+	cursor: pointer;
+	border: 0;
+	padding: 20px 0;
+	background-color: #3772ff;
+	border-radius: 50px;
+	width: 232px;
+	height: 56px;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
 }
 .buttons {
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 16px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 16px;
 }
 .content,
-.lightModeCreatAnEventde {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.lightMode {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .content {
-  align-self: stretch;
-  gap: 35px;
+	align-self: stretch;
+	gap: 35px;
 }
-.lightModeCreatAnEventde {
-  border-radius: 15px;
-  background-color: #fcfcfd;
-  width: 512px;
-  height: 282px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: 24px 32px;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 24px;
-  color: #23262f;
-  font-family: Inter;
+.lightMode {
+	border-radius: 15px;
+	background-color: #fcfcfd;
+	width: 512px;
+	height: 282px;
+	overflow: hidden;
+	flex-shrink: 0;
+	padding: 24px 32px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 24px;
+	color: #23262f;
+	font-family: Inter;
 }

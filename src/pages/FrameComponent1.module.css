@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'semiBold';
+	src: url('/public/open-sans.semibold.ttf');
+}
 .button,
 .div1 {
 	position: absolute;
@@ -1515,6 +1519,7 @@
 	height: 80px;
 	flex-direction: column;
 	gap: 21px;
+	z-index: 2;
 }
 
 .divTable {
@@ -1771,7 +1776,6 @@
 	top: 109px;
 	left: 1px;
 	border-radius: 2px;
-	background-color: #fff;
 	border: 0.5px solid #e7e7ed;
 	flex-direction: column;
 	text-align: center;
@@ -1782,12 +1786,12 @@
 
 .parent {
 	position: absolute;
-	background-color: #d9d9d9;
-	width: 100%;
+	width: 1280px;
 	height: 920px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
+	z-index: 5;
 	font-family: 'Open Sans';
 }
 .button,
@@ -1928,17 +1932,56 @@
 	font-family: 'Open Sans';
 	color: #000;
 }
-
 .parent {
-	position: relative;
 	overflow: hidden;
-	background-color: #d9d9d9;
-	width: 100%;
+	justify-content: center;
+	background-image: linear-gradient(
+		to top,
+		#000000,
+		#282828,
+		#4c4c4c,
+		#737373,
+		#9d9d9d,
+		#a8a8a8,
+		#b3b3b3,
+		#bebebe,
+		#ababab,
+		#989898,
+		#868686,
+		#747474
+	);
+	min-width: 1290px;
 	height: 100vh;
+	width: 100vw;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
+	z-index: 5;
 	font-family: 'Open Sans';
+}
+.buttonContainer {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 10px;
+	left: 615px;
+	z-index: 2;
+}
+.mainButtons {
+	width: 90px;
+	height: 35px;
+	border: 0;
+	background: #3772ff;
+	border-radius: 15px;
+	padding: 0.2rem 0.5rem;
+	font-size: 1rem;
+	font-family: 'semiBold';
+	font-weight: bold;
+	color: #fff;
+	line-height: 1;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .t1 {
 	position: absolute;
@@ -2063,7 +2106,7 @@
 }
 .t16 {
 	top: 794px;
-	left: 1100px;
+	left: 1000px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2072,7 +2115,7 @@
 }
 .t17 {
 	top: 794px;
-	left: 1270px;
+	left: 1170px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2081,7 +2124,7 @@
 }
 .t18 {
 	top: 695px;
-	left: 1100px;
+	left: 1000px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2090,7 +2133,7 @@
 }
 .t19 {
 	top: 695px;
-	left: 1270px;
+	left: 1170px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2099,7 +2142,7 @@
 }
 .t20 {
 	top: 595px;
-	left: 1100px;
+	left: 1000px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2108,7 +2151,7 @@
 }
 .t21 {
 	top: 595px;
-	left: 1270px;
+	left: 1170px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2117,7 +2160,7 @@
 }
 .t22 {
 	top: 465px;
-	left: 1065px;
+	left: 965px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2126,7 +2169,7 @@
 }
 .t23 {
 	top: 465px;
-	left: 1304px;
+	left: 1204px;
 	text-align: center;
 	font-size: 64px;
 	font-family: 'Open Sans';
@@ -2134,7 +2177,7 @@
 }
 .t25 {
 	top: 305px;
-	left: 1304px;
+	left: 1204px;
 	text-align: center;
 	font-size: 48px;
 	font-family: 'Open Sans';
@@ -2142,7 +2185,7 @@
 }
 .t24 {
 	top: 305px;
-	left: 1065px;
+	left: 965px;
 	text-align: center;
 	font-size: 48px;
 	font-family: 'Open Sans';
@@ -2150,7 +2193,7 @@
 }
 .t26 {
 	top: 175px;
-	left: 1100px;
+	left: 1000px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2159,7 +2202,7 @@
 }
 .t27 {
 	top: 175px;
-	left: 1270px;
+	left: 1170px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2168,7 +2211,7 @@
 }
 .t28 {
 	top: 75px;
-	left: 1100px;
+	left: 1000px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2177,7 +2220,7 @@
 }
 .t29 {
 	top: 75px;
-	left: 1270px;
+	left: 1170px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2186,7 +2229,7 @@
 }
 .t30 {
 	top: -25px;
-	left: 1100px;
+	left: 1000px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
@@ -2195,21 +2238,17 @@
 }
 .t31 {
 	top: -25px;
-	left: 1270px;
+	left: 1170px;
 	text-align: center;
 	font-size: 48px;
 	color: #000;
 	font-family: 'Open Sans';
 	position: absolute;
 }
-input {
+.time {
+	font-family: 'semiBold';
+	font-size: 30px;
 	position: absolute;
-	display: flex;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0;
-	width: inherit;
-	height: inherit;
-	cursor: pointer;
+	margin: 15px;
+	left: 40px;
 }

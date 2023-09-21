@@ -92,95 +92,101 @@ const TableContainerComponent = ({
 
 	return (
 		<>
-			<div className={styles.stats}>
-				<b className={styles.due}>Due $ {outstanding}</b>
-				<b className={styles.paid}>Paid $ {total}</b>
-			</div>
-			<div className={styles.div200}>
-				<TableContainer className={styles.tableContainer}>
-					<Table className={styles.table}>
-						<TableHeadStyled className={styles.thead}>
-							<TableCell className={styles.td}>Table</TableCell>
-							<TableCell className={styles.td}>Rate</TableCell>
-							<TableCell className={styles.td}>
-								Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$
-							</TableCell>
-						</TableHeadStyled>
-						<TableBody>
-							{index2.map((item) => (
-								<TableRowStyled
-									key={`Timer-${item.id}`}
-									className={styles.tr}
-								>
-									<TableCell className={styles.td}>
-										Table&nbsp;{item.id}
-									</TableCell>
-									<TableCell className={styles.td}>
-										&nbsp;{getRateLabel(hourlyRate)}
-									</TableCell>
-									<TableCell className={styles.td}>
-										<Counter
-											key={item.id}
-											id={item.id}
-											booked={item.booked}
-											reserved={item.reserved}
-											disabled={item.disabled}
-											secs={item.seconds}
-											paid={item.amount}
-											prepaid={item.prepaidAmount}
-											setStatus={setStatus}
-										/>
-									</TableCell>
-								</TableRowStyled>
-							))}
-						</TableBody>
-					</Table>
-				</TableContainer>
-			</div>
-			<div className={styles.table1}>
-				<TableContainer
-					component={Paper}
-					className={styles.tableContainer}
-				>
-					<Table className={styles.table}>
-						<TableHeadStyled className={styles.thead}>
-							<TableCell className={styles.td}>Table</TableCell>
-							<TableCell className={styles.td}>Rate</TableCell>
-							<TableCell className={styles.td}>
-								Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$
-							</TableCell>
-						</TableHeadStyled>
-						<TableBody>
-							{index1.map((item) => (
-								<TableRowStyled
-									className={styles.tr}
-									key={`Timer-${item.id}`}
-								>
-									<TableCell className={styles.td}>
-										Table&nbsp;{item.id}
-									</TableCell>
-									<TableCell className={styles.td}>
-										&nbsp; {getRateLabel(hourlyRate)}
-									</TableCell>
-									<TableCell className={styles.td}>
-										<Counter
-											key={item.id}
-											id={item.id}
-											booked={item.booked}
-											reserved={item.reserved}
-											disabled={item.disabled}
-											secs={item.seconds}
-											paid={item.amount}
-											prepaid={item.prepaidAmount}
-											setStatus={setStatus}
+			<div className={styles.tableParent}>
+				<div className={styles.table1}>
+					<TableContainer
+						component={Paper}
+						className={styles.tableContainer}
+					>
+						<Table className={styles.table}>
+							<TableHeadStyled className={styles.thead}>
+								<TableCell className={styles.td}>Table</TableCell>
+								<TableCell className={styles.td}>Rate</TableCell>
+								<TableCell className={styles.td}>
+									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$
+								</TableCell>
+							</TableHeadStyled>
+							<TableBody>
+								{index1.map((item) => (
+									<TableRowStyled
+										className={styles.tr}
+										key={`Timer-${item.id}`}
+									>
+										<TableCell className={styles.td}>
+											Table&nbsp;{item.id}
+										</TableCell>
+										<TableCell className={styles.td}>
+											&nbsp; {getRateLabel(hourlyRate)}
+										</TableCell>
+										<TableCell className={styles.td}>
+											<Counter
+												key={item.id}
+												id={item.id}
+												booked={item.booked}
+												reserved={item.reserved}
+												disabled={item.disabled}
+												secs={item.seconds}
+												paid={item.amount}
+												prepaid={item.prepaidAmount}
+												setStatus={setStatus}
 
-										/>
-									</TableCell>
-								</TableRowStyled>
-							))}
-						</TableBody>
-					</Table>
-				</TableContainer>
+											/>
+										</TableCell>
+									</TableRowStyled>
+								))}
+							</TableBody>
+						</Table>
+					</TableContainer>
+				</div>
+				<div className={styles.div200}>
+					<TableContainer className={styles.tableContainer}>
+						<Table className={styles.table}>
+							<TableHeadStyled className={styles.thead}>
+								<TableCell className={styles.td}>Table</TableCell>
+								<TableCell className={styles.td}>Rate</TableCell>
+								<TableCell className={styles.td}>
+									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$
+								</TableCell>
+							</TableHeadStyled>
+							<TableBody>
+								{index2.map((item) => (
+									<TableRowStyled
+										key={`Timer-${item.id}`}
+										className={styles.tr}
+									>
+										<TableCell className={styles.td}>
+											Table&nbsp;{item.id}
+										</TableCell>
+										<TableCell className={styles.td}>
+											&nbsp;{getRateLabel(hourlyRate)}
+										</TableCell>
+										<TableCell className={styles.td}>
+											<Counter
+												key={item.id}
+												id={item.id}
+												booked={item.booked}
+												reserved={item.reserved}
+												disabled={item.disabled}
+												secs={item.seconds}
+												paid={item.amount}
+												prepaid={item.prepaidAmount}
+												setStatus={setStatus}
+											/>
+										</TableCell>
+									</TableRowStyled>
+								))}
+							</TableBody>
+						</Table>
+					</TableContainer>
+				</div>
+				<div className={styles.stats}>
+					<div className={styles.outstandingContainer}>
+						<b className={styles.dueTop}>Outstanding</b>
+						<b className={styles.dueBot}>${outstanding}</b>
+						<b className={styles.paidTop}>Total Paid</b>
+						<b className={styles.paidBot}>${total}</b>
+					</div>
+				</div>
 			</div>
 		</>
 	)

@@ -7,10 +7,10 @@ const ContextProvider = ({ children }) => {
 	const [nightRate,setNightRate] = useState(20)
 	const [satRate,setSatRate] = useState(22)
 	const [vipRate,setVipRate] = useState(15)
-	const [hourlyRate,setHourlyRate] = useState({ 'Day Rate': dayRate })
-	const currentTime = moment().utcOffset('+9:30').format('hh:mm:ss a')
-	const currentDay = moment().utcOffset('+9:30').format('ddd')
-	const [time,setTime] = useState(currentTime)
+	const [hourlyRate,setHourlyRate] = useState(dayRate)
+	const currentTime = moment().format('hh:mm:ss a')
+	const currentDay = moment().format('ddd')
+	const time = moment().format('ddd hh:mm:ss a')
 	const [day,setDay] = useState(currentDay)
 	const [selected,setSelected] = useState(null)
 	const [total,setTotal] = useState(0)
@@ -19,7 +19,6 @@ const ContextProvider = ({ children }) => {
 		setSelected(e.target.value)
 		console.log(e.target.value)
 	}
-
 	const [status,setStatus] = useState(() => {
 		const initialState = [
 			{ id: 1,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
@@ -57,44 +56,23 @@ const ContextProvider = ({ children }) => {
 	})
 
 	useEffect(() => {
-		setTime(currentTime)
-		setDay(currentDay)
-
-		const timestamp = moment(time,'hh:mm:ss a').valueOf()
-		const startOfDayTimestamp = moment(
-			'08:00:00 am',
-			'hh:mm:ss a'
-		).valueOf()
-		const endOfDayTimestamp = moment('07:29:59 pm','hh:mm:ss a').valueOf()
-		const startOfNightTimestamp = moment(
-			'07:30:00 pm',
-			'hh:mm:ss a'
-		).valueOf()
-		const endOfNightTimestamp = moment(
-			'07:59:59 am',
-			'hh:mm:ss a'
-		).valueOf()
-
-		if (timestamp > startOfDayTimestamp && timestamp < endOfDayTimestamp) {
+		if (
+			(currentDay === 'Sun' || currentDay === 'Mon' || currentDay === 'Tue' || currentDay === 'Wed' || currentDay === 'Thu' || currentDay === 'Fri' || currentDay === 'Sat') &&
+			moment(currentTime,'hh:mm:ss a').isBetween(moment('07:00:00 am','hh:mm:ss a'),moment('07:00:00 am','hh:mm:ss a').add(12,'hours'))
+		) {
 			setHourlyRate(dayRate)
 		} else if (
-			day !== 'Sunday' &&
-			day !== 'Thursday' &&
-			timestamp > startOfNightTimestamp &&
-			timestamp < endOfNightTimestamp
+			(currentDay === 'Sun' || currentDay === 'Mon' || currentDay === 'Tue' || currentDay === 'Wed' || currentDay === 'Thu') &&
+			moment(currentTime,'hh:mm:ss a').isBetween(moment('07:00:00 pm','hh:mm:ss a'),moment('07:00:00 pm','hh:mm:ss a').add(12,'hours'))
 		) {
 			setHourlyRate(nightRate)
 		} else if (
-			day === 'Friday' &&
-			day === 'Saturday' &&
-			timestamp > startOfNightTimestamp &&
-			timestamp < endOfNightTimestamp
+			(currentDay === 'Fri' || currentDay === 'Sat') &&
+			moment(currentTime,'hh:mm:ss a').isBetween(moment('07:00:00 pm','hh:mm:ss a'),moment('07:00:00 pm','hh:mm:ss a').add(12,'hours'))
 		) {
 			setHourlyRate(satRate)
-		} else {
-			setHourlyRate(dayRate)
 		}
-	},[currentTime,currentDay])
+	},[currentDay,currentTime])
 
 	return (
 		<Context.Provider
@@ -108,7 +86,6 @@ const ContextProvider = ({ children }) => {
 				vipRate,
 				setVipRate,
 				time,
-				setTime,
 				day,
 				setDay,
 				hourlyRate,

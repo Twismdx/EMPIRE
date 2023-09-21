@@ -17,6 +17,7 @@ const muiTheme = createTheme()
 const container = document.getElementById('root')
 const root = createRoot(container)
 
+
 root.render(
 	<ContextProvider>
 		<StyledEngineProvider injectFirst>
@@ -27,6 +28,7 @@ root.render(
 		</StyledEngineProvider>
 	</ContextProvider>
 )
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

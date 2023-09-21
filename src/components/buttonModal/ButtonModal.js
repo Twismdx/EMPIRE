@@ -14,10 +14,10 @@ const ButtonModal = ({ id,closeModal,handleBook,handleReserve,handleDisable,hand
                 <button className={styles.button} id='flash' onClick={() => handleFlash(id)}>
                     Flash
                 </button>
-                <button className={timers.reserved ? styles.buttonB : styles.button} id='reserve' onClick={() => handleReserve(id)}>
+                <button className={timers.reserved ? styles.buttonB : styles.button} disabled={timers.booked} id='reserve' onClick={() => handleReserve(id)}>
                     Reserve
                 </button>
-                <button className={timers.disabled ? styles.buttonB : styles.button} id='disable' onClick={() => handleDisable(id)}>
+                <button className={timers.disabled ? styles.buttonB : styles.button} disabled={timers.booked} id='disable' onClick={() => handleDisable(id)}>
                     Disable
                 </button>
             </div>
