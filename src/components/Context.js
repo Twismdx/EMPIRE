@@ -21,7 +21,7 @@ const ContextProvider = ({ children }) => {
 	}
 	const [status,setStatus] = useState(() => {
 		const initialState = [
-			{ id: 1,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 1,seconds: 0,amount: 0,prepaidAmount: 18,booked: false,reserved: false,disabled: false },
 			{ id: 2,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 3,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 4,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
@@ -39,7 +39,7 @@ const ContextProvider = ({ children }) => {
 			{ id: 17,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 18,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 19,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
-			{ id: 20,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
+			{ id: 20,seconds: 0,amount: 0,prepaidAmount: 50,booked: false,reserved: false,disabled: false },
 			{ id: 21,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 22,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 23,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
