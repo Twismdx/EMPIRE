@@ -1908,7 +1908,7 @@
 	font-style: bold;
 	font-family: 'Open Sans';
 	margin-top: 75px;
-	margin-left: 245px;
+	margin-left: 260px;
 	color: black;
 	overflow: hidden;
 }
@@ -2644,4 +2644,7 @@
 	height: 75px; */
 	text-align: center;
 	font-size: 16px;
+}
+.td {
+	text-shadow: 2px 2px 4px #808080;
 }

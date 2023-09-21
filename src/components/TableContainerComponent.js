@@ -120,10 +120,10 @@ const TableContainerComponent = ({
 					>
 						<Table className={styles.table}>
 							<TableHeadStyled className={styles.thead}>
-								<TableCell className={styles.td}>Table</TableCell>
+								<TableCell className={styles.td}>#</TableCell>
 								<TableCell className={styles.td}>Rate</TableCell>
 								<TableCell className={styles.td}>
-									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$
+									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								</TableCell>
 							</TableHeadStyled>
 							<TableBody>
@@ -133,7 +133,7 @@ const TableContainerComponent = ({
 										key={`Timer-${item.id}`}
 									>
 										<TableCell className={styles.td}>
-											Table&nbsp;{item.id}
+											#&nbsp;{item.id}
 										</TableCell>
 										<TableCell className={styles.td}>
 											&nbsp; {getRateLabel(hourlyRate)}
@@ -162,10 +162,10 @@ const TableContainerComponent = ({
 					<TableContainer className={styles.tableContainer}>
 						<Table className={styles.table}>
 							<TableHeadStyled className={styles.thead}>
-								<TableCell className={styles.td}>Table</TableCell>
+								<TableCell className={styles.td}>#</TableCell>
 								<TableCell className={styles.td}>Rate</TableCell>
 								<TableCell className={styles.td}>
-									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$
+									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								</TableCell>
 							</TableHeadStyled>
 							<TableBody>
@@ -175,7 +175,7 @@ const TableContainerComponent = ({
 										className={styles.tr}
 									>
 										<TableCell className={styles.td}>
-											Table&nbsp;{item.id}
+											&nbsp;#&nbsp;{item.id}
 										</TableCell>
 										<TableCell className={styles.td}>
 											&nbsp;{getRateLabel(hourlyRate)}

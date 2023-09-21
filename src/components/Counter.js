@@ -2,7 +2,7 @@ import React,{ useState,useEffect } from 'react'
 import { useGlobalContext } from './Context'
 
 const Counter = ({ secs,paid,prepaid,id,booked,disabled,reserved,setStatus }) => {
-	const { hourlyRate } = useGlobalContext()
+	const { hourlyRate,status } = useGlobalContext()
 	const [seconds,setSeconds] = useState(secs)
 	const [amount,setAmount] = useState(paid)
 	const [prepaidAmount,setPrepaidAmount] = useState(prepaid)
@@ -57,15 +57,15 @@ const Counter = ({ secs,paid,prepaid,id,booked,disabled,reserved,setStatus }) =>
 		const formattedSeconds = seconds.toString().padStart(2,'0')
 		return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
 	}
-
-	const textColor = amount < 0 ? 'red' : 'black'
+	const timer = status.find((timers) => timers.id === id)
+	const textColor = timer.prepaidAmount > 0 ? '#880808' : 'black'
 
 
 	return (
 		<div>
-			<span style={{ color: textColor }}>{formatTime(seconds)}</span>
+			<span style={{ color: textColor,textShadow: '2px 2px 4px #808080' }}>{formatTime(seconds)}</span>
 
-			<span style={{ color: textColor }}>
+			<span style={{ color: textColor,textShadow: '2px 2px 4px #808080' }}>
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				{prepaidAmount > 0
 					? `- $${amount.toFixed(2)}`
