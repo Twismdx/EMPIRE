@@ -21,7 +21,7 @@ const ContextProvider = ({ children }) => {
 	}
 	const [status,setStatus] = useState(() => {
 		const initialState = [
-			{ id: 1,seconds: 0,amount: 0,prepaidAmount: 50,booked: false,reserved: false,disabled: false },
+			{ id: 1,seconds: 0,amount: 0,prepaidAmount: 18,booked: false,reserved: false,disabled: false },
 			{ id: 2,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 3,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
 			{ id: 4,seconds: 0,amount: 0,prepaidAmount: 0,booked: false,reserved: false,disabled: false },
