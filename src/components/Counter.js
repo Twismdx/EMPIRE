@@ -58,14 +58,6 @@ const Counter = ({ secs,paid,prepaid,id,booked,disabled,reserved,setStatus }) =>
 		return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
 	}
 
-	useEffect(() => {
-		if (prepaidAmount > 0) {
-			const prepaidTime = (prepaidAmount / hourlyRate) * 3600
-			setSeconds(prepaidTime)
-			setAmount(prepaidAmount)
-		}
-	},[prepaidAmount,hourlyRate])
-
 	const textColor = amount < 0 ? 'red' : 'black'
 
 

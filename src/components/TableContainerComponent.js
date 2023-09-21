@@ -32,6 +32,26 @@ const TableContainerComponent = ({
 		setStatus,
 	} = useGlobalContext()
 
+	useEffect(() => {
+		setStatus((prevStatus) => {
+			const updatedStatus = prevStatus.map((statusItem) => {
+				if (statusItem.id === id) {
+					if (statusItem.prepaidAmount > 0) {
+						const prepaidTime = (statusItem.prepaidAmount / hourlyRate) * 3600
+						return {
+							...statusItem,
+							seconds: prepaidTime,
+							amount: statusItem.prepaidAmount, // Fix: Access statusItem.prepaidAmount instead of status.prepaidAmount
+						}
+					}
+				}
+				return statusItem
+			})
+			return updatedStatus
+		})
+	},[setStatus,hourlyRate,status.prepaidAmount,id])
+
+
 	// const index1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16]
 	// const index2 = [17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
 
