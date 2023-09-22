@@ -49,14 +49,14 @@ const TableContainerComponent = ({
 			})
 			return updatedStatus
 		})
-	},[setStatus,hourlyRate,status,id])
+	},[setStatus,hourlyRate,status.prepaidAmount,id])
 
 
 	// const index1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16]
 	// const index2 = [17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
 
-	const index1 = status.slice(0,14)
-	const index2 = status.slice(16)
+	const index1 = status.slice(0,15)
+	const index2 = status.slice(15)
 
 	const getRateLabel = (rate) => {
 		if (hourlyRate === dayRate) {
@@ -70,31 +70,72 @@ const TableContainerComponent = ({
 		}
 	}
 
-	const TableRowStyled = styled(TableRow)`
+	const TableRowStyledBlue = styled(TableRow)`
 		&:nth-of-type(odd) {
-			background-color: #aaaaaa;
+			background-color: #0078c6;
 			padding-bottom: 1px;
 			padding-top: 1px;
 			margin-bottom: 0;
 		}
 		&:nth-of-type(even) {
-			background-color: #dddddd;
+			background-color: #0078c6;
 			padding-bottom: 1px;
 			padding-top: 1px;
 			margin-bottom: 0;
 		}
 		& > td {
-			color: black;
 			padding-bottom: 4px;
 			padding-top: 4px;
 			font-weight: bold;
 			text-align: left;
+			
+			-webkit-text-stroke: 0.5px black;
+			color: white;
+			text-shadow:
+				2px 2px 0 #000,
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				1px 1px 0 #000;
 			font-size: 17px;
 			font-family: 'Open Sans';
 			margin-bottom: 0;
-			border: #888888 1px solid;
+			border: #000 1px solid;
 		}
 	`
+	const TableRowStyledGreen = styled(TableRow)`
+	&:nth-of-type(odd) {
+		background-color: #0c8c2a;
+		padding-bottom: 1px;
+		padding-top: 1px;
+		margin-bottom: 0;
+	}
+	&:nth-of-type(even) {
+		background-color: #0c8c2a;
+		padding-bottom: 1px;
+		padding-top: 1px;
+		margin-bottom: 0;
+	}
+	& > td {
+		padding-bottom: 4px;
+		padding-top: 4px;
+		font-weight: bold;
+		text-align: left;
+		-webkit-text-stroke: 0.5px black;
+		color: white;
+		text-shadow:
+			2px 2px 0 #000,
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		font-size: 17px;
+		font-family: 'Open Sans';
+		margin-bottom: 0;
+		border: #000 1px solid;
+
+	}
+`
 
 	const TableHeadStyled = styled(TableRow)`
 		& > td {
@@ -107,6 +148,7 @@ const TableContainerComponent = ({
 			padding-bottom: 5px;
 			padding-top: 5px;
 			margin-bottom: 0;
+			border: #000 1px solid;
 		}
 	`
 
@@ -123,36 +165,63 @@ const TableContainerComponent = ({
 								<TableCell className={styles.td}>#</TableCell>
 								<TableCell className={styles.td}>Rate</TableCell>
 								<TableCell className={styles.td}>
-									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$&nbsp;&nbsp;&nbsp;
 								</TableCell>
 							</TableHeadStyled>
 							<TableBody>
 								{index1.map((item) => (
-									<TableRowStyled
-										className={styles.tr}
-										key={`Timer-${item.id}`}
-									>
-										<TableCell className={styles.td}>
-											#&nbsp;{item.id}
-										</TableCell>
-										<TableCell className={styles.td}>
-											&nbsp; {getRateLabel(hourlyRate)}
-										</TableCell>
-										<TableCell className={styles.td}>
-											<Counter
-												key={item.id}
-												id={item.id}
-												booked={item.booked}
-												reserved={item.reserved}
-												disabled={item.disabled}
-												secs={item.seconds}
-												paid={item.amount}
-												prepaid={item.prepaidAmount}
-												setStatus={setStatus}
+									item.id > 17 && item.id < 30 ?
+										<TableRowStyledGreen
+											className={styles.td}
+											key={`Timer-${item.id}`}
+										>
+											<TableCell className={styles.td}>
+												Table&nbsp;{item.id}
+											</TableCell>
+											<TableCell className={styles.td}>
+												&nbsp; {item.booked ? getRateLabel(hourlyRate) : null}
+											</TableCell>
+											<TableCell className={styles.td}>
+												<Counter
+													key={item.id}
+													id={item.id}
+													booked={item.booked}
+													reserved={item.reserved}
+													disabled={item.disabled}
+													secs={item.seconds}
+													paid={item.amount}
+													prepaid={item.prepaidAmount}
+													setStatus={setStatus}
 
-											/>
-										</TableCell>
-									</TableRowStyled>
+												/>
+											</TableCell>
+										</TableRowStyledGreen>
+										:
+										<TableRowStyledBlue
+											className={styles.td}
+											key={`Timer-${item.id}`}
+										>
+											<TableCell className={styles.td}>
+												Table&nbsp;{item.id}
+											</TableCell>
+											<TableCell className={styles.td}>
+												&nbsp; {item.booked ? getRateLabel(hourlyRate) : null}
+											</TableCell>
+											<TableCell className={styles.td}>
+												<Counter
+													key={item.id}
+													id={item.id}
+													booked={item.booked}
+													reserved={item.reserved}
+													disabled={item.disabled}
+													secs={item.seconds}
+													paid={item.amount}
+													prepaid={item.prepaidAmount}
+													setStatus={setStatus}
+
+												/>
+											</TableCell>
+										</TableRowStyledBlue>
 								))}
 							</TableBody>
 						</Table>
@@ -165,49 +234,69 @@ const TableContainerComponent = ({
 								<TableCell className={styles.td}>#</TableCell>
 								<TableCell className={styles.td}>Rate</TableCell>
 								<TableCell className={styles.td}>
-									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									Timer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$$&nbsp;&nbsp;&nbsp;
 								</TableCell>
 							</TableHeadStyled>
 							<TableBody>
 								{index2.map((item) => (
-									<TableRowStyled
-										key={`Timer-${item.id}`}
-										className={styles.tr}
-									>
-										<TableCell className={styles.td}>
-											&nbsp;#&nbsp;{item.id}
-										</TableCell>
-										<TableCell className={styles.td}>
-											&nbsp;{getRateLabel(hourlyRate)}
-										</TableCell>
-										<TableCell className={styles.td}>
-											<Counter
-												key={item.id}
-												id={item.id}
-												booked={item.booked}
-												reserved={item.reserved}
-												disabled={item.disabled}
-												secs={item.seconds}
-												paid={item.amount}
-												prepaid={item.prepaidAmount}
-												setStatus={setStatus}
-											/>
-										</TableCell>
-									</TableRowStyled>
+									item.id > 17 && item.id < 30 ?
+										<TableRowStyledGreen
+											className={styles.td}
+											key={`Timer-${item.id}`}
+										>
+											<TableCell className={styles.td}>
+												Table&nbsp;{item.id}
+											</TableCell>
+											<TableCell className={styles.td}>
+												&nbsp; {item.booked ? getRateLabel(hourlyRate) : null}
+											</TableCell>
+											<TableCell className={styles.td}>
+												<Counter
+													key={item.id}
+													id={item.id}
+													booked={item.booked}
+													reserved={item.reserved}
+													disabled={item.disabled}
+													secs={item.seconds}
+													paid={item.amount}
+													prepaid={item.prepaidAmount}
+													setStatus={setStatus}
+
+												/>
+											</TableCell>
+										</TableRowStyledGreen>
+										:
+										<TableRowStyledBlue
+											className={styles.td}
+											key={`Timer-${item.id}`}
+										>
+											<TableCell className={styles.td}>
+												Table&nbsp;{item.id}
+											</TableCell>
+											<TableCell className={styles.td}>
+												&nbsp; {item.booked ? getRateLabel(hourlyRate) : null}
+											</TableCell>
+											<TableCell className={styles.td}>
+												<Counter
+													key={item.id}
+													id={item.id}
+													booked={item.booked}
+													reserved={item.reserved}
+													disabled={item.disabled}
+													secs={item.seconds}
+													paid={item.amount}
+													prepaid={item.prepaidAmount}
+													setStatus={setStatus}
+
+												/>
+											</TableCell>
+										</TableRowStyledBlue>
 								))}
 							</TableBody>
 						</Table>
 					</TableContainer>
 				</div>
-				<div className={styles.stats}>
-					<div className={styles.outstandingContainer}>
-						<b className={styles.dueTop}>Outstanding</b>
-						<b className={styles.dueBot}>${outstanding}</b>
-						<b className={styles.paidTop}>Total Paid</b>
-						<b className={styles.paidBot}>${total}</b>
-					</div>
-				</div>
-			</div>
+			</div >
 		</>
 	)
 }

@@ -1,5 +1,6 @@
 import React,{ useState,useEffect } from 'react'
 import { useGlobalContext } from './Context'
+import styles from '../App'
 
 const Counter = ({ secs,paid,prepaid,id,booked,disabled,reserved,setStatus }) => {
 	const { hourlyRate,status } = useGlobalContext()
@@ -63,13 +64,14 @@ const Counter = ({ secs,paid,prepaid,id,booked,disabled,reserved,setStatus }) =>
 
 	return (
 		<div>
-			<span style={{ color: textColor,textShadow: '2px 2px 4px #808080' }}>{formatTime(seconds)}</span>
-
-			<span style={{ color: textColor,textShadow: '2px 2px 4px #808080' }}>
+			<span className={styles.timer}>{booked ? formatTime(seconds) : null}</span>
+			<span className={styles.timer}>
 				&nbsp;&nbsp;&nbsp;&nbsp;
-				{prepaidAmount > 0
+				{booked ? (prepaidAmount > 0
 					? `- $${amount.toFixed(2)}`
-					: `$${amount.toFixed(2)}`}
+					: ` $${amount.toFixed(2)}`)
+					: null}
+
 			</span>
 		</div>
 	)

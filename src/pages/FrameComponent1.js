@@ -49,6 +49,10 @@ const FrameComponent1 = (props) => {
 		setStatus((prevStatus) => {
 			const updatedStatus = prevStatus.map((timer) => {
 				if (timer.id === id) {
+					const amountToAdd = timer.amount // Get the amount to add
+					setTotal(prevTotal => prevTotal + amountToAdd)
+					const amountToRemove = timer.amount // Get the amount to remove
+					setTotal(prevTotal => prevTotal - amountToRemove)
 					return {
 						...timer,
 						booked: false,
@@ -107,7 +111,7 @@ const FrameComponent1 = (props) => {
 	useEffect(() => {
 		const getTotalPaid = () => {
 			const sum = status.reduce((total,item) => {
-				return total + item.prepaidAmount + item.amount
+				return total + item.prepaidAmount
 			},0)
 			return sum
 		}
@@ -363,6 +367,14 @@ const FrameComponent1 = (props) => {
 						/>
 					</div>
 				</div>
+				<div className={styles.stats}>
+					<div className={styles.outstandingContainer}>
+						<b className={styles.dueTop}>Outstanding</b>
+						<b className={styles.dueBot}>${outstanding}</b>
+						<b className={styles.paidTop}>Total Paid</b>
+						<b className={styles.paidBot}>${total}</b>
+					</div>
+				</div>
 				<div
 					className={styles.time}
 				>{time}
@@ -413,6 +425,7 @@ const FrameComponent1 = (props) => {
 						handleFlash={handleFlash}
 						id={activeId}
 						status={status}
+						closeModal={closeButtonModal}
 					/>
 				</PortalPopup>
 			)}

@@ -5,9 +5,11 @@
 .tableParent {
 	position: relative;
 	display: flex;
+	justify-content: space-between;
 	flex-direction: row;
 	z-index: 0;
-	height: 600px;
+	height: 650px;
+	width: 965px;
 }
 .button {
 	cursor: pointer;
@@ -23,12 +25,16 @@
 	background-repeat: no-repeat;
 	background-position: top;
 }
-/* .greenv {
+.green {
+	background-color: #0e9c33;
+
+	/* .greenv {
   position: absolute;
   top: 31.28px;
   left: 5.25px;
   font-weight: 800;
 } */
+}
 .div {
 	top: 515.22px;
 	left: 936.25px;
@@ -1848,7 +1854,7 @@
 	overflow: hidden;
 }
 .table {
-	font-size: 18px;
+	font-size: 24px;
 	font-style: bold;
 	font-family: 'Open Sans';
 	overflow: hidden;
@@ -1893,7 +1899,7 @@
 	overflow: hidden;
 }
 .table {
-	font-size: 18px;
+	font-size: 24px;
 	font-style: bold;
 	font-family: 'Open Sans';
 	overflow: hidden;
@@ -1908,7 +1914,8 @@
 	font-style: bold;
 	font-family: 'Open Sans';
 	margin-top: 75px;
-	margin-left: 260px;
+	margin-right: 10px;
+
 	color: black;
 	overflow: hidden;
 }
@@ -2081,7 +2088,7 @@
 	margin-left: 10px;
 	margin-top: 75px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 24px;
 	color: #272833;
 	font-family: 'Source Sans Pro';
 }
